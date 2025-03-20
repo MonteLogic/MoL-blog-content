@@ -1,6 +1,6 @@
 ---
-title: "Proposal: Markdown CLI CMS"
-date: "2024-11-19"
+title: 'Proposal: Markdown CLI CMS'
+date: '2024-11-19'
 ---
 
 Ideally we would use **Frontmatter** for the metadata. So it'll be Markdown CLI. We would use contentlayer for schema validation. But then we would query all of this as one project. Then the CLI, check out one branch of it and then this Branch would be by default which you can just open it.
@@ -22,3 +22,7 @@ Headless WordPress would be an attractive option due to the fact that it's easy 
 ## The Bare Basics:
 
 An AWS bucket which would just store data in a certain schema and have routine backups.
+
+## CLI Functionality
+
+Ideally you could just run a CLI command and the .mdx file is scaffolded the title and all the stuff should be optional so you can get straight into your stream of consciousness.
