@@ -29,3 +29,6 @@ using Next.js with MoL Blog Stack
 - Make that healthcare profiler a product
 
 - Use the same logic for the healthcare profiler, to make an Upwork resume generator.
+
+Scratch notes:
+For the CBud profile picture, I would like for there to be more trucks in the background.
