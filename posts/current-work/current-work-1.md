@@ -37,3 +37,18 @@ Today:
 
 - Use the same logic for the healthcare profiler, to make an Upwork resume generator.
 
+
+
+Notes:
+
+What do I want to accomplish? 
+
+
+I really want to get those flashcards good for Yiddish Lang like
+
+, I also want to establish private vs. public posts. 
+
+So I'm going to get private vs. public logic good, so I can write those personal notes. 
+
+
+
