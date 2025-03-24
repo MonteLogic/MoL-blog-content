@@ -125,24 +125,3 @@ I would like to have a pinned posts feature, to pin to the homepage the posts wh
 ## Search MO99
 
 I would also like mo99 to be queryable from a terminal, so take for instance, I could run mo99 search-posts "Post Name" and then have all a list of the posts and their ids and then I could run a cat command of it to view the whole post.
-
-## Start: Thu Mar 20 2025 21:00:03 CDT
-
-I like this component-sets idea for the .mdx.
-
-```md
----
-title: "Advanced MDX with Custom Component Sets"
-date: "2024-03-20"
-description: "This post demonstrates using multiple component sets for rich content"
-author: "Your Name"
-tags: ["mdx", "components", "advanced"]
-componentSets: ["post-a", "advanced-charts"]
----
-x
-
-```
-
-Shown: 
-https://claude.ai/chat/72945432-0eeb-432b-86c8-7705416842ec
-
