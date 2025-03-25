@@ -4,6 +4,7 @@ date: "2024-12-20"
 description: "This is an example of a blog post with MDX and frontmatter"
 author: "MonteLogic"
 tags: ["next-ab", "mdx", "react"]
+status: "private" 
 ---
 
 ## Start: Mon Mar 24 2025 08:49:49 CDT

@@ -22,3 +22,5 @@ I am currently trying to compose, 'ui/address-bar.tsx' into smaller components.
 The problem is if I don't have the .env vars for Stripe, it may trigger a false negative.
 
 So the TaskBar needs to have the Stripe logic isolated and if the .env is not there than take out that part without triggering a false negative.
+
+Okay, got that finished in the #5 issue, which is kind of going over scope. 
