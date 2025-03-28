@@ -1,9 +1,7 @@
 ---
-title: 'The Power of Static Typing in Programming'
-publishedAt: '2024-04-07'
-summary: 'In the ever-evolving landscape of software development, the debate between dynamic and static typing continues to be a hot topic.'
+title: 'Contractor Buddy Work Notes - part-4'
+date: '2024-04-11'
 ---
-
 
 What I learned from April to June
 
@@ -17,9 +15,9 @@ Now, I have to turn those input results into object which will then be saved to 
 I need to pipe a setState into:
 
 ```typescript
-export const AddRouteShifts: React.FC<{ allocatedShifts: any }> = ({
+export const AddRouteShifts: React.FC<{ allocatedShifts: any }> = {
   allocatedShifts,
-}) 
+};
 ```
 
 allocatedShifts is sending but not well, I still need to accommodate it in the API file.
@@ -63,31 +61,30 @@ Check in summary-selection if there is no id, then pass then we’ll know that f
 How to setState through components:
 
 ```typescript
-  setSummaryObject: React.Dispatch<React.SetStateAction<any>>
+setSummaryObject: React.Dispatch<React.SetStateAction<any>>;
 ```
 
 This is my current object how about I move up the other stuff which isn’t relevant to the summaryObject:
 
 ```json
 {
- "summaryObjectWithDateAndRoute": {
-  "dateScheduled": "2024-05-08",
-  "earlyMorning": [
-   {
-    "imgURLs": [],
-    "text": "ummary?date=2024-05-08&route=626M5"
-   }
-  ],
-  "midMorning": [
-   {
-    "imgURLs": [],
-    "text": "ummary?date=2024-05-08&route=626M5"
-   }
-  ],
-  "routeIDFromPostOffice": "626M5"
- }
+  "summaryObjectWithDateAndRoute": {
+    "dateScheduled": "2024-05-08",
+    "earlyMorning": [
+      {
+        "imgURLs": [],
+        "text": "ummary?date=2024-05-08&route=626M5"
+      }
+    ],
+    "midMorning": [
+      {
+        "imgURLs": [],
+        "text": "ummary?date=2024-05-08&route=626M5"
+      }
+    ],
+    "routeIDFromPostOffice": "626M5"
+  }
 }
-
 ```
 
 I don’t think I need that useEffect because it could be replaced by data being piped into the server component.
@@ -195,7 +192,6 @@ For the diagramming, I am trying, Markdown Preview Mermaid Support
 Okay so we are going to have this function:
 
 ```typescript
-
 const saveWorkTime = async (localWorkTimeForEmployee: WorkTime) => {
   try {
     const response = await fetch('/api/work-time', {
@@ -206,7 +202,7 @@ const saveWorkTime = async (localWorkTimeForEmployee: WorkTime) => {
       body: JSON.stringify(localWorkTimeForEmployee),
     });
 
-    // Okay, so this post I need to pipe the return value 
+    // Okay, so this post I need to pipe the return value
     // of them all into /main/schedule.
     if (response.ok) {
       console.log('Work time updated successfully');
@@ -218,7 +214,6 @@ const saveWorkTime = async (localWorkTimeForEmployee: WorkTime) => {
     console.error('Error updating work time', error);
   }
 };
-
 ```
 
 We would like that return value to query the whole db part where orgID is equivalent. Why? Because the return value can then be used to prop drill up to update the schedule carousel file.
@@ -230,7 +225,6 @@ I think its better to use the { use} hook rather than prop drill up or down. Wha
 In Next.js 13 with the app router, the recommended way to update data is by using the use hook in combination with the fetch function. The use hook allows you to fetch and cache data on the server, and it automatically handles data updates when the underlying data changes. Here’s an example of how you can update data in a Next.js 13 app router component:
 
 ```typescript
-
 import { use } from 'react';
 
 async function fetchData(id) {
@@ -285,14 +279,12 @@ Said previously: What I am going to do is add that dispatch setState and whats g
 Working on trying to get those cards to turn to yellow: What variable is responsible for changing it to yellow?
 
 ```typescript
-     <SwiperSlide
-          key={i}
-          className={`flex flex-col items-center ${
-            hasTrueShift && fullTrueForID ? 'bg-yellow-500' : 'bg-white'
-          }`}
-          />
-
-
+<SwiperSlide
+  key={i}
+  className={`flex flex-col items-center ${
+    hasTrueShift && fullTrueForID ? 'bg-yellow-500' : 'bg-white'
+  }`}
+/>
 ```
 
 There appears to be a type mismatch on slider-component so thats bad, ideally it would take to the form of workTimeTop.
@@ -352,14 +344,13 @@ Start: Mon 27 May 2024 01:54:20 PM CDT
 Why are all these shiftSlots all messed up:
 
 ```typescript
-  useEffect(() => {
-    if (Array.isArray(initialRoutes)) {
-      initialRoutes.forEach((route) => {
-        setShiftSlots(route.allocatedShifts);
-      });
-    }
-  }, [initialRoutes]);
-
+useEffect(() => {
+  if (Array.isArray(initialRoutes)) {
+    initialRoutes.forEach((route) => {
+      setShiftSlots(route.allocatedShifts);
+    });
+  }
+}, [initialRoutes]);
 ```
 
 Thu 30 May 2024 09:46:19 AM CDT Has the value in the array and we need to find it: 179,
@@ -379,30 +370,28 @@ How does the switching even work?
 There’s a ModalSwitches component. Which takes in a parameter of shiftSlots.
 
 ```tsx
-   <ModalSwitches
-       employeeName={employeeName}
-              employeeID={employeeID}
-              workTimeForEmployee={
-                editable ? localWorkTimeForEmployee : workTimeForEmployee
-              }
-              setWorkTimeForEmployee={setLocalWorkTimeForEmployee}
-              shiftSlots={shiftSlots}
+<ModalSwitches
+  employeeName={employeeName}
+  employeeID={employeeID}
+  workTimeForEmployee={
+    editable ? localWorkTimeForEmployee : workTimeForEmployee
+  }
+  setWorkTimeForEmployee={setLocalWorkTimeForEmployee}
+  shiftSlots={shiftSlots}
 />
-
 ```
 
 shiftSlots variable which is being piped in is currently an empty object (09:25:09 AM CDT) but it should be allocatedShifts see the buggy useEffect written.
 
 ```typescript
-  useEffect(() => {
-    if (Array.isArray(initialRoutes)) {
-      initialRoutes.forEach((route) => {
-        setShiftSlots(route.allocatedShifts);
-        console.log(272.3, shiftSlots);
-      });
-    }
-  }, [initialRoutes]);
-
+useEffect(() => {
+  if (Array.isArray(initialRoutes)) {
+    initialRoutes.forEach((route) => {
+      setShiftSlots(route.allocatedShifts);
+      console.log(272.3, shiftSlots);
+    });
+  }
+}, [initialRoutes]);
 ```
 
 Alright, switches are back, now we have to write a test.
@@ -536,13 +525,13 @@ articles/docs: [https://blog.bitsrc.io/how-to-handle-authentication-in-e2e-testi
 
 [https://playwright.dev/docs/auth](https://playwright.dev/docs/auth)
 
-forums: [https://www.reddit.com/r/programming/comments/tdvxms/how\_to\_handle\_authentication\_in\_e2e\_testing\_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
+forums: [https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
 
-[https://www.reddit.com/r/programming/comments/tdvxms/how\_to\_handle\_authentication\_in\_e2e\_testing\_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
+[https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
 
-[https://www.reddit.com/r/programming/comments/tdvxms/how\_to\_handle\_authentication\_in\_e2e\_testing\_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
+[https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
 
-[https://www.reddit.com/r/programming/comments/tdvxms/how\_to\_handle\_authentication\_in\_e2e\_testing\_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
+[https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/](https://www.reddit.com/r/programming/comments/tdvxms/how_to_handle_authentication_in_e2e_testing_with/)
 
 Regardless of the authentication strategy you choose, you are likely to store authenticated browser state on the file system.
 
@@ -570,8 +559,6 @@ The repo says: Testing accounts are created for each test worker, and are delete
 
 What exactly does await clerkSetup(); do?
 
-
-
 Okay, so these testing tokens just by pass bot detection it’s not about authenticating and saving the auth state: " await page.goto(“/”);
 
 await page.locator(‘\[id=“\_\_next”\] div’).click(); await page .getByRole(“button”, { name: “Sign in with Google Continue” }) .click(); await page.getByLabel(“Email or phone”).click(); await page.getByLabel(“Email or phone”).fill(username || “”); await page.getByRole(“button”, { name: “Next” }).click(); await page.getByLabel(“Enter your password”).click(); await page.getByLabel(“Enter your password”).fill(password || “”); await page.getByRole(“button”, { name: “Next” }).click(); await page.getByRole(“button”, { name: “Continue” }).click();
@@ -589,7 +576,6 @@ So, we have to use the login from here and then saving it as a JSON file I guess
 Okay, so this works for an isolated test see:
 
 ```ts
-
 // I feel like if you run the test right here
 // it doesn't hit the global pre-requisite test.
 test.describe('app', () => {
@@ -614,23 +600,17 @@ test.describe('app', () => {
     await page.waitForURL('**/main/schedule');
     // await page.waitForTimeout(2000);
 
-
     await page.waitForLoadState('networkidle');
     await page.screenshot({ path: 'screenshot6.png' });
   });
 });
-
-
 ```
 
 Start: Mon 10 Jun 2024 11:00:00 AM CDT
 
 - I think what I may do is list the test which I am trying to fulfill and then provide commentary on that test.
-    
 - I don’t like this work notes general sort of look cause it’s too vague. I wouldn’t mind an overarching type of thing underneath the toDo chamber or something like this but I think the notes would be better off if they were based on a a Test via the TDD arrangement we are aiming for.
-    
 - I wonder if its easy or not to execute tests from a mobile device.
-    
 
 … I guess I just do a simple node app where I am testing it and I just test cbud.pp or rather an alternative deployment.
 
