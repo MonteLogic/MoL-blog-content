@@ -1,7 +1,9 @@
 ---
-title: "Contractor Buddy Work Notes - Part 4"
-date: "2024-06-10"
+title: 'The Power of Static Typing in Programming'
+publishedAt: '2024-04-07'
+summary: 'In the ever-evolving landscape of software development, the debate between dynamic and static typing continues to be a hot topic.'
 ---
+
 
 What I learned from April to June
 
@@ -568,7 +570,7 @@ The repo says: Testing accounts are created for each test worker, and are delete
 
 What exactly does await clerkSetup(); do?
 
-import { test as setup } from ‘@playwright/test’; I missed the setup keyword.
+
 
 Okay, so these testing tokens just by pass bot detection it’s not about authenticating and saving the auth state: " await page.goto(“/”);
 

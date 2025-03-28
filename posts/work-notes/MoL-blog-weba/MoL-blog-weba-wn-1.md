@@ -24,3 +24,5 @@ The problem is if I don't have the .env vars for Stripe, it may trigger a false 
 So the TaskBar needs to have the Stripe logic isolated and if the .env is not there than take out that part without triggering a false negative.
 
 Okay, got that finished in the #5 issue, which is kind of going over scope. 
+
+... Okay so no remark plugins, see (here)[https://github.com/hashicorp/next-mdx-remote/issues/375].

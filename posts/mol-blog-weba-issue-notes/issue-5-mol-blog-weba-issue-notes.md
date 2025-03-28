@@ -47,3 +47,5 @@ So, I tried to write out the ts-ignore, vibe coding it didn't work AT ALL, big w
 
 
 # Closing Issue 5.
+
+# Restarted with Issue 22.
