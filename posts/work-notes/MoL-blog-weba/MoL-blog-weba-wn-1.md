@@ -26,3 +26,10 @@ So the TaskBar needs to have the Stripe logic isolated and if the .env is not th
 Okay, got that finished in the #5 issue, which is kind of going over scope. 
 
 ... Okay so no remark plugins, see (here)[https://github.com/hashicorp/next-mdx-remote/issues/375].
+
+## Start: Sun Mar 30 2025 10:27:47 CST
+
+Currently, I don't know where exactly I was at with my last session, what was my last commit, what was I doing etc? 
+
+So, I think a good way to get around this is to have a filter feature on the blog, then I can just use the arrow toggle to see which one was the last updated and which one was first published first, etc.
+
