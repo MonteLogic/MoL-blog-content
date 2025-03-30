@@ -20,7 +20,8 @@ Today:
 
 
 -✔️ Get MoL blog on Vercel using Next.js with MoL Blog Stack
---🟢️  Setup private vs. public logic for posts.
+-- ✔️ Setup private vs. public logic for posts.
+-- 🟢 Code bounties
 -- Make courses 
 
 
@@ -51,5 +52,6 @@ I really want to get those flashcards good for Yiddish Lang like
 
 So I'm going to get private vs. public logic good, so I can write those personal notes. 
 
+Okay, so courses is going to take a while, so I'd rather, just get to work on those code bounties. 
 
 
