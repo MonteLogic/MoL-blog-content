@@ -33,3 +33,23 @@ Currently, I don't know where exactly I was at with my last session, what was my
 
 So, I think a good way to get around this is to have a filter feature on the blog, then I can just use the arrow toggle to see which one was the last updated and which one was first published first, etc.
 
+
+## Start: Tue Apr 01 2025 11:19:55 CDT
+
+Currently focusing on code bounties. 
+
+But what I would really like to do is do a 1rm tracker and put it on MoLogicTraining.
+
+... I have a job interview at 2pm today. 
+
+
+### ... 
+
+Tried to register Scaleway but didn't have accounts setup correctly. 
+
+
+## Start: Wed Apr 02 2025 05:06:40 CDT
+
+So when I get around to it, I will get the funds in for scaleway then I'll start my own proposal. 
+
+
