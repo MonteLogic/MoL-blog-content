@@ -1,12 +1,18 @@
-# Expensify Code Bounties
+Not the latest one but still good info here:
+
+The PR: 
+https://github.com/Expensify/App/pull/27629
 
 
-They are doing code bounties and it looks very easy.
 
 
-The only kind of tough part is that you have to test on Mac and I haven't done that yet. 
+Aside: I'm tired of doing all of this start stuff, it would be great if the timecode could be engrained into the file.
 
 
+
+
+
+Resources:
 
 Latest issue to be on their Twitter:
 https://github.com/Expensify/App/issues/27387
@@ -23,3 +29,5 @@ https://github.com/Expensify/App/issues/58554
 
 It's corresponding PR:
 https://github.com/Expensify/App/pull/58559
+
+
