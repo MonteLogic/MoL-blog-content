@@ -3,6 +3,8 @@ title: 'Fitness: SOC - 1'
 start-date: 'Thu Mar 20 2025 14:00:38 CDT'
 last-updated: 'Thu Mar 20 2025 14:00:38 CDT'
 category: 'Work/Life Notes'
+status: "private" 
+
 ---
 
 Today:
