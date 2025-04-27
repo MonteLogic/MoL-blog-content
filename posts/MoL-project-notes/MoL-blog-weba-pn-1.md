@@ -14,3 +14,7 @@ status: 'public'
 - We gotta make it more readable for the blog.
 
 - We have an issue with the blog posts taking too long to load.
+
+- I like the folder structure and then there's going to be a category and I guess you can tie up the category with the schema for good results on the blog.
+
+- I think it may be better to just go on the category of the markdown file and the user can organize their folders the way they like. 
