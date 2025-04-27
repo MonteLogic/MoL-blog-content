@@ -4,6 +4,7 @@ date: "2024-08-21"
 categories: 
   - "tutorial"
 coverImage: "nextprisma-thumbnail-1.png"
+status: "public"
 ---
 
 There are two ways which you can use Turso, locally and through a connection
