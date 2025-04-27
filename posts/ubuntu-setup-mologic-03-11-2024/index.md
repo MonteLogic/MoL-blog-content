@@ -1,6 +1,8 @@
 ---
 title: "Ubuntu Setup, MoLogic - 03.11.2024"
 date: "2024-11-03"
+status: "public"
+
 ---
 
 ## Download Ubuntu and Install on machine.
