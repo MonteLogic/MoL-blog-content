@@ -53,3 +53,7 @@ Tried to register Scaleway but didn't have accounts setup correctly.
 So when I get around to it, I will get the funds in for scaleway then I'll start my own proposal. 
 
 
+## Sun Apr 27 2025 17:49:09 CDT
+
+
+I kind of already have a 'tags' page the way the blog page is setup.
