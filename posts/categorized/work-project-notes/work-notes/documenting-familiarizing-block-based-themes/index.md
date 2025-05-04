@@ -3,7 +3,7 @@ title: "Documenting: Familiarizing Block Based Themes"
 date: "2022-08-23"
 categories: 
   - "documenting"
-  - "working-on"
+  - "work-notes"
 ---
 
 **New Day:** Mon 21 Aug 2022 12:00:00 PM CDT
