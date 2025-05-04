@@ -65,3 +65,25 @@ I kind of already have a 'tags' page the way the blog page is setup.
 I kind of already have a 'tags' page the way the blog page is setup.
 
 Okay, so how does the blog page work 
+
+--
+Aside:
+Hopefully, 
+http://localhost:3000/blog/tag/work-notes
+--
+
+
+This 
+app/blog/[slug]/page.tsx
+
+is just showing the blog post, there should be a different scheme. 
+
+We could make it general view.
+
+Notice, category isn't the first recommended URL path. 
+
+![WordPress photo](media/image.png)
+
+
+It looks like it's better to use a number for the post but I want to use the categories and sub categories because I could navigate thru the blog easier because the URL bar will act as a sort of breadcrumb functionality. 
+
