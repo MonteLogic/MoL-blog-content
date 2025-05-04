@@ -57,3 +57,11 @@ So when I get around to it, I will get the funds in for scaleway then I'll start
 
 
 I kind of already have a 'tags' page the way the blog page is setup.
+
+## Sun May 04 2025 10:31:44 CDT
+
+***Goal***, get the Work Notes thing to show like a tag.
+
+I kind of already have a 'tags' page the way the blog page is setup.
+
+Okay, so how does the blog page work 
