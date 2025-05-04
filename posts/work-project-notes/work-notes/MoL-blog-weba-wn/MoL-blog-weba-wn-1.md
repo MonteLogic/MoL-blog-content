@@ -23,76 +23,87 @@ The problem is if I don't have the .env vars for Stripe, it may trigger a false 
 
 So the TaskBar needs to have the Stripe logic isolated and if the .env is not there than take out that part without triggering a false negative.
 
-Okay, got that finished in the #5 issue, which is kind of going over scope. 
+Okay, got that finished in the #5 issue, which is kind of going over scope.
 
 ... Okay so no remark plugins, see (here)[https://github.com/hashicorp/next-mdx-remote/issues/375].
 
 ## Start: Sun Mar 30 2025 10:27:47 CST
 
-Currently, I don't know where exactly I was at with my last session, what was my last commit, what was I doing etc? 
+Currently, I don't know where exactly I was at with my last session, what was my last commit, what was I doing etc?
 
 So, I think a good way to get around this is to have a filter feature on the blog, then I can just use the arrow toggle to see which one was the last updated and which one was first published first, etc.
 
-
 ## Start: Tue Apr 01 2025 11:19:55 CDT
 
-Currently focusing on code bounties. 
+Currently focusing on code bounties.
 
 But what I would really like to do is do a 1rm tracker and put it on MoLogicTraining.
 
-... I have a job interview at 2pm today. 
+... I have a job interview at 2pm today.
 
+### ...
 
-### ... 
-
-Tried to register Scaleway but didn't have accounts setup correctly. 
-
+Tried to register Scaleway but didn't have accounts setup correctly.
 
 ## Start: Wed Apr 02 2025 05:06:40 CDT
 
-So when I get around to it, I will get the funds in for scaleway then I'll start my own proposal. 
-
+So when I get around to it, I will get the funds in for scaleway then I'll start my own proposal.
 
 ## Sun Apr 27 2025 17:49:09 CDT
-
 
 I kind of already have a 'tags' page the way the blog page is setup.
 
 ## Sun May 04 2025 10:31:44 CDT
 
-***Goal***, get the Work Notes thing to show like a tag.
+**_Goal_**, get the Work Notes thing to show like a tag.
 
 I kind of already have a 'tags' page the way the blog page is setup.
 
-Okay, so how does the blog page work 
+Okay, so how does the blog page work
 
 --
 Aside:
-Hopefully, 
+Hopefully,
 http://localhost:3000/blog/tag/work-notes
 --
 
-
-This 
+This
 app/blog/[slug]/page.tsx
 
-is just showing the blog post, there should be a different scheme. 
+is just showing the blog post, there should be a different scheme.
 
 We could make it general view.
 
-Notice, category isn't the first recommended URL path. 
+Notice, category isn't the first recommended URL path.
 
 ![WordPress photo](media/image.png)
 
-
-I want to have as good SEO as possible, I'll just use the metadata to convey categories and other data. 
-
+I want to have as good SEO as possible, I'll just use the metadata to convey categories and other data.
 
 ...
 
-
-We should have a JSON file with all of the tags. 
+We should have a JSON file with all of the tags.
 
 And the tags would be rendered accordingly.
 
+...
 
+Then,
+this
+
+```ts
+<TabGroupBlog
+  path="/blog"
+  items={[
+    {
+      text: 'Home',
+    },
+    {
+      text: 'Work Notes 1',
+      slug: 'work-notes',
+    },
+  ]}
+/>
+```
+
+There should be code which programmatically searches the schema file and fills out the parameters of TabGroupBlog.
