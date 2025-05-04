@@ -85,5 +85,14 @@ Notice, category isn't the first recommended URL path.
 ![WordPress photo](media/image.png)
 
 
-It looks like it's better to use a number for the post but I want to use the categories and sub categories because I could navigate thru the blog easier because the URL bar will act as a sort of breadcrumb functionality. 
+I want to have as good SEO as possible, I'll just use the metadata to convey categories and other data. 
+
+
+...
+
+
+We should have a JSON file with all of the tags. 
+
+And the tags would be rendered accordingly.
+
 
