@@ -107,3 +107,10 @@ this
 ```
 
 There should be code which programmatically searches the schema file and fills out the parameters of TabGroupBlog.
+
+## Start: Mon May 05 2025 14:55:10 CDT
+
+Okay, currently we can view .md files in the categorized folder but what we should be able to do is run a CMD line command and have a sort of json file be generated which will have all of the paths of every .md file. 
+
+Apparently the npm package glob works fine. 
+
