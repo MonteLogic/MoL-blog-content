@@ -110,18 +110,19 @@ There should be code which programmatically searches the schema file and fills o
 
 ## Start: Mon May 05 2025 14:55:10 CDT
 
-Okay, currently we can view .md files in the categorized folder but what we should be able to do is run a CMD line command and have a sort of json file be generated which will have all of the paths of every .md file. 
+Okay, currently we can view .md files in the categorized folder but what we should be able to do is run a CMD line command and have a sort of json file be generated which will have all of the paths of every .md file.
 
-Apparently the npm package glob works fine. 
+Apparently the npm package glob works fine.
 
 ## Start: Tue May 06 2025 15:28:11 CDT
 
 Please sign in to view blog posts or check back later for public content.
 
-
 All of the public posts aren't showing it maybe because no posts are showing period.
-
 
 My goal is to get the blog good so I can document my Expensify process so I can do it good.
 
+### Get posts to show which are public
+
+So we have to get posts to show which are public on the '/' page.
 
