@@ -122,3 +122,6 @@ Please sign in to view blog posts or check back later for public content.
 All of the public posts aren't showing it maybe because no posts are showing period.
 
 
+My goal is to get the blog good so I can document my Expensify process so I can do it good.
+
+
