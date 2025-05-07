@@ -126,3 +126,6 @@ My goal is to get the blog good so I can document my Expensify process so I can 
 
 So we have to get posts to show which are public on the '/' page.
 
+## Start: Wed May 07 2025 15:36:16 CDT
+
+Why is it not showing the posts? 
