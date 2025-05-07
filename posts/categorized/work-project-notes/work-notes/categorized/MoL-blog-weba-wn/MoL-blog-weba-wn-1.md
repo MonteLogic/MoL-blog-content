@@ -1,3 +1,11 @@
+---
+title: "Ubuntu Setup, MoLogic - 03.11.2024"
+date: "2024-11-03"
+status: "public"
+
+---
+
+
 # MoL-blog-weba-wn-1
 
 ## Start: Thu Mar 20 2025 21:00:03 CDT

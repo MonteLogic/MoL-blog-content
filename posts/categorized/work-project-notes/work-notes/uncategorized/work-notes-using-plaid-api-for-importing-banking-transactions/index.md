@@ -1,6 +1,9 @@
 ---
-title: "Work Notes: Using Plaid API for importing Banking transactions"
-date: "2023-08-24"
+title: 'Work Notes: Using Plaid API for importing Banking transactions'
+date: '2023-08-24'
+categories:
+  - 'tutorial'
+status: 'public'
 ---
 
 toDo:
@@ -65,7 +68,7 @@ We need to know if the money which was taken out was for gas or used to pay for 
 
 ...
 
-I was unable atm to insert dummy data onto the used\_good accounts so I'm going to have change it from the transactions which was loaded.
+I was unable atm to insert dummy data onto the used_good accounts so I'm going to have change it from the transactions which was loaded.
 
 It looks like you can interdict the transactions and change the categories, see [here](https://plaid.com/blog/transactions-categorization-taxonomy/).
 
