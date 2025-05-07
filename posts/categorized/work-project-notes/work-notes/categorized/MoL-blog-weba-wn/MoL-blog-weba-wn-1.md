@@ -129,3 +129,8 @@ So we have to get posts to show which are public on the '/' page.
 ## Start: Wed May 07 2025 15:36:16 CDT
 
 Why is it not showing the posts? 
+
+
+It's good for '/blog'
+
+I think I'm going to make home something different.
