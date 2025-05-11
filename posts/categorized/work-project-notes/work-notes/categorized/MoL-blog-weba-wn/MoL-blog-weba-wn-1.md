@@ -1,14 +1,12 @@
 ---
-title: "MoL Blog Web App Work Notes - 1"
-lastUpdated: "May 10 2025 20:48"
-date: "2025-05-10"
-status: "public"
-categories: 
-  - "documenting"
-  - "currently-working-on"
-
+title: 'MoL Blog Web App Work Notes - 1'
+lastUpdated: 'May 10 2025 20:48'
+date: '2025-05-10'
+status: 'public'
+categories:
+  - 'documenting'
+  - 'currently-working-on'
 ---
-
 
 # MoL-blog-weba-wn-1
 
@@ -140,8 +138,7 @@ So we have to get posts to show which are public on the '/' page.
 
 ## Start: Wed May 07 2025 15:36:16 CDT
 
-Why is it not showing the posts? 
-
+Why is it not showing the posts?
 
 It's good for '/blog'
 
@@ -149,3 +146,4 @@ I think I'm going to make home something different.
 
 ## Start: Sat May 10 2025 20:34:44 CDT
 
+I think it would be a good idea to have recommended extensions for a repo, you clone it and then you would have all of the recommended extensions for your systems.
