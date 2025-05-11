@@ -1,5 +1,5 @@
 ---
-title: "My First MDX Blog Post"
+title: "Macro Lift Notes"
 date: "2024-12-20"
 description: "This is an example of a blog post with MDX and frontmatter"
 author: "MonteLogic"
@@ -11,10 +11,14 @@ status: "private"
 
 I want this as a Markdown post.
 
-Today: 
-✔️Get MoL Namecheap hosting back. 
 
 🔴️ Make MoLogTraining blog good. 
+I could have MoLogTraining goals on m99.sh but have all of the implementations on m99.sh or just a quick link. 
+
+It'll just say Fitness and link to MoLogTrain.com/goals
+
+
+
 -- ✔️Write content 
 --(pause) Make MoLogTraining blog good
 
