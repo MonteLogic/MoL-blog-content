@@ -1,6 +1,7 @@
 ---
-title: "Ubuntu Setup, MoLogic - 03.11.2024"
-date: "2024-11-03"
+title: "MoL Blog Web App Work Notes - 1"
+lastUpdated: "May 10 2025 20:48"
+date: "2025-05-10"
 status: "public"
 
 ---
