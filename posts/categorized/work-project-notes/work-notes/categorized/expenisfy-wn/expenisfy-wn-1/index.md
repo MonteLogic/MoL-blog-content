@@ -43,3 +43,4 @@ But I will do the bulk of my work on Chrome for Linux with the Android target.
 
 
 Aside: What I would like to do is to get really good content generated from Gemini and I could read that in the down time. 
+
