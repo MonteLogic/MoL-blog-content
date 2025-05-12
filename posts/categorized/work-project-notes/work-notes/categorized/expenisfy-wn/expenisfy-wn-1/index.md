@@ -1,9 +1,16 @@
 ---
 title: 'Expensify Work Notes - 1 - issue 61644'
-start-date: 'Thu Mar 20 2025 14:00:38 CDT'
-last-updated: 'Thu Mar 20 2025 14:00:38 CDT'
-category: 'Work/Life Notes'
-status: 'private'
+lastUpdated: 'May 10 2025 20:48'
+date: '2025-05-10'
+status: 'public'
+categories:
+  - 'documenting'
+  - 'currently-working-on'
+niceId: 'post-02'
+---
+
+
+
 ---
 
 ## Start: Sun May 11 2025 12:39:24 CDT
