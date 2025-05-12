@@ -6,6 +6,7 @@ status: 'public'
 categories:
   - 'documenting'
   - 'currently-working-on'
+niceId: 'post-01'
 ---
 
 # MoL-blog-weba-wn-1
