@@ -1,7 +1,6 @@
 ---
-title: 'Expensify Work Notes - 1 - issue 61644'
-lastUpdated: 'May 10 2025 20:48'
-date: '2025-05-10'
+title: 'Expensify Work Notes'
+date: '2025-05-12'
 status: 'public'
 categories:
   - 'documenting'
@@ -10,8 +9,6 @@ niceId: 'post-02'
 ---
 
 
-
----
 
 ## Start: Sun May 11 2025 12:39:24 CDT
 
