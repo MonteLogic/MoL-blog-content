@@ -6,6 +6,7 @@ status: 'public'
 categories:
   - 'documenting'
   - 'currently-working-on'
+niceId: 'post-01'
 ---
 
 # MoL-blog-weba-wn-1
@@ -147,3 +148,12 @@ I think I'm going to make home something different.
 ## Start: Sat May 10 2025 20:34:44 CDT
 
 I think it would be a good idea to have recommended extensions for a repo, you clone it and then you would have all of the recommended extensions for your systems.
+
+## Start: Mon May 12 2025 14:46:33 CDT - Device: 2nd Thinkpad
+
+Took way to long to fix styling on this blog due to not switching to dark theme in the root, layout.tsx.
+
+Wanted to make the text white.
+
+
+
