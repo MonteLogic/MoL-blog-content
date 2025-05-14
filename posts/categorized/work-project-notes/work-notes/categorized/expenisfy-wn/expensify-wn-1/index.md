@@ -3,7 +3,7 @@ title: 'Expensify Work Notes - 1 '
 start-date: 'Thu Mar 20 2025 14:00:38 CDT'
 last-updated: 'Thu Mar 20 2025 14:00:38 CDT'
 category: 'Work/Life Notes'
-status: 'private'
+status: 'public'
 ---
 
 
@@ -56,4 +56,26 @@ Also, I don't see any responses critiquing the proposals it looks like they post
 
 The 60144 looks like it need admins rights but this looks more promising:
 https://github.com/Expensify/App/issues/61715
+
+
+## Start: Wed May 14 2025 17:52:04 CDT
+
+What I notice is that these issues get taken care of REALLY fast so its almost as if you need to get it done in the same sitting.
+
+Okay, so my goal for today is to at least locally reproduce an issue in one sitting, then the next session get a pseudo working solution.
+
+
+... 
+
+I was able to reproduce the bug, it is basically making it so the notice for adding a category goes away. 
+
+
+So apparently if you make a chat reply then the notice goes away all of a sudden...
+
+
+
+## GtG: Gots to Go
+Gots to go, but my ideal day would be a fix one of these Expensify issues then work on one of my SaaS projects for myself, either that be CBud or XCertified.io or MySiddur.io
+
+
 
