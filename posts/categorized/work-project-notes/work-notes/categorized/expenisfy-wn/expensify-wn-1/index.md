@@ -53,3 +53,7 @@ https://github.com/Expensify/App/issues/60144
 
 Also, I don't see any responses critiquing the proposals it looks like they post the proposal and they only get a response if it gets accepted.
 
+
+The 60144 looks like it need admins rights but this looks more promising:
+https://github.com/Expensify/App/issues/61715
+
