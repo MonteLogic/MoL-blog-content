@@ -88,3 +88,22 @@ I'm working on Device B, which is my other Thinkpad and I don't have the dev env
 The issue mentioned in the previous dev session:
 https://github.com/Expensify/App/issues/61960
 
+The issue just mentioned it appears to be an internal issue. 
+
+In my perusing I found this wonderful issue which describes a problem and its solution.
+https://github.com/Expensify/App/issues/59649
+
+This issue showcases how the best proposals are accepted. 
+
+I would like to compile a list of issues which perfectly demonstrate how good proposals are made. 
+
+... 
+
+Okay, what I think I'm going to do is, just make my own proposal, don't submit it, administer the changes and see if it passes the tests. 
+
+
+
+### Back to SaaS stuff
+
+
+
