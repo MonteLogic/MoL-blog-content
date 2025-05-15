@@ -1,5 +1,6 @@
 ---
 title: 'Expensify Work Notes - 1 '
+date: '2025-05-14'
 start-date: 'Thu Mar 20 2025 14:00:38 CDT'
 last-updated: 'Thu Mar 20 2025 14:00:38 CDT'
 category: 'Work/Life Notes'
@@ -78,4 +79,12 @@ So apparently if you make a chat reply then the notice goes away all of a sudden
 Gots to go, but my ideal day would be a fix one of these Expensify issues then work on one of my SaaS projects for myself, either that be CBud or XCertified.io or MySiddur.io
 
 
+## Start: Thu May 15 2025 16:18:59 CDT
+
+
+I'm working on Device B, which is my other Thinkpad and I don't have the dev environment setup to run Expensify. 
+
+
+The issue mentioned in the previous dev session:
+https://github.com/Expensify/App/issues/61960
 
