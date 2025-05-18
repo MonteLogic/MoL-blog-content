@@ -90,10 +90,10 @@ If I had a manual treadmill this would remarkably reduce my training time.
 
 ## Month of May 2025 - first entry.
 
-I think I'm going to make MySiddur with the business logic on the front page. 
+I think I'm going to make MySiddur with the flagship on the front page. 
 
 
-With credits rather than a monthly thing for resupplying, then I'm going to apply the same scheme to CBud as well as add a blog to CBud.
+Paying with credits rather than a monthly thing for resupplying, then I'm going to apply the same scheme to CBud as well as add a blog to CBud.
 
 
 Then do XCertified.io where I teach the in demand very niche skills which don't have a certification but are looked for on Upwork. 
