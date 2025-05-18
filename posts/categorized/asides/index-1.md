@@ -11,3 +11,9 @@ Like, WHY did Expensify make a custom state manager, assumingly there wasn't a s
 --
 
 Another aside: I feel like there is an easier way to sync environments between two laptops without using a VM or having to worry about booting ISOs and all that, really just a command line.
+
+... 
+
+Aside: I wish there was an easy way to test out the thousands of stacks in a certain use case to experiment to know which one fits the use case the best.
+
+
