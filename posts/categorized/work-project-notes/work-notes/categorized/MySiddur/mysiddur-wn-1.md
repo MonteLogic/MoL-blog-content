@@ -55,5 +55,7 @@ Also, markdown-paths.json is a bit of an issue.
 
 ## Start: Sun May 18 2025 10:21:26 CDT
 
+Right now, we are working on string so we don't have to change every MoL tech blog thing we can just rely on strings.json
 
 
+Working on [issue 2](/MoL-blog-content/posts/categorized/work-project-notes/work-notes/categorized/MySiddur/issues/issue2/index.md)
