@@ -10,11 +10,21 @@ status: 'public'
 
 # Crafting Timecards: An In-Depth Look at PDF Generation in cbud.app
 
-Generating accurate and formatted documents is a vital function for applications like cbud.app, particularly for creating essential records such as contractor timecards. The process, as revealed through recent work notes and the provided codebase, centers around utilizing the `pdf-lib` library to programmatically fill pre-designed PDF templates with specific user and work time data.
+Trying to deliver an excellently formatted PDF document is hard and took me 2+ months to do it effectevely for my use case, granted I was a new Next.js Dev.
+
+
+Here I will outline how I designed CBud to deliver pdfs along with the dates and formatting.
+
+This process centers around using the pdf-lib library as well as a myriad of custom functions. 
+
+
+
+
 
 ## User Interaction: The `TimeCardComponent`
 
-The user interaction point for this functionality resides within the `TimeCardComponent`. This client-side React component provides the interface for selecting an employee, choosing a timecard template type (like "Acme Trucking" or "Standard Template"), defining the pay period using date inputs and a calendar interface, and ultimately triggering the generation process via a "Generate Timecard" button. This component collects the necessary parameters, such as the selected employee's ID and name, the desired pay period dates, and initial data like routes and route shift information.
+The user interaction point for this functionality resides within the `TimeCardComponent`. This client-side React component provides the interface for selecting an employee, choosing a timecard template type (like "Acme Trucking" or "Standard Template"), defining the pay period using date inputs and a calendar interface, and ultimately triggering the generation process.
+
 
 ### From `TimeCardComponent.tsx`:
 
