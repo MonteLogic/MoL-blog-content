@@ -59,3 +59,9 @@ Right now, we are working on string so we don't have to change every MoL tech bl
 
 
 Working on [issue 2](/MoL-blog-content/posts/categorized/work-project-notes/work-notes/categorized/MySiddur/issues/issue2/index.md)
+
+
+## Start: Mon May 19 05:08:44 PM CDT 2025
+
+
+

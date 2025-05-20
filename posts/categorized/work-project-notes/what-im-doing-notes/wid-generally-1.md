@@ -1,3 +1,4 @@
+
 ---
 title: "What I'm Doing Notes"
 date: "2024-12-20"
@@ -101,3 +102,9 @@ Then do XCertified.io where I teach the in demand very niche skills which don't 
 Before the end of the year I would like to transform LLM-viz into a general visualization web app using the same aesthetics. 
 
 🟢 Working on MySiddur
+
+
+
+
+
+
