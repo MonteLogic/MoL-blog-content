@@ -64,4 +64,30 @@ Working on [issue 2](/MoL-blog-content/posts/categorized/work-project-notes/work
 ## Start: Mon May 19 05:08:44 PM CDT 2025
 
 
+Okay, so I'm starting up CBud and found that the timecard page works but not the timecard per employee. 
+
+
+So just going to stuff a bunch of logic in there until I can get some sort of timecard
+
+
+This stuff works:
+
+```ts
+      <Button
+        onClick={generatePDFClientSide}
+        className="w-full justify-center rounded-md bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/75"
+      >
+        Generate Timecard
+      </Button>
+
+```
+
+
+
+
+
+
+
+
+
 
