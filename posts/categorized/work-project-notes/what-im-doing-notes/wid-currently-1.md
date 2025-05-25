@@ -35,3 +35,9 @@ What I plan on:
 
 What I did: 
 
+Just made a plain PDF when you hit generate siddur.
+
+## Today:  Sun May 25 2025 08:54:32 CDT - 
+
+
+
