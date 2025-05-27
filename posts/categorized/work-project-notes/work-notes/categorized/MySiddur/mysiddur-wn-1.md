@@ -88,6 +88,18 @@ This stuff works:
 
 
 
+## Start: Fri May 23 2025 13:47:19 CDT
+
+
+This is a useful article minus the Alphabet talk.
+https://www.jewcy.com/religion-and-beliefs/write_your_own_siddur/
+
+mαkesiddur.com is good 
+
+
+
+
+
 
 
 
