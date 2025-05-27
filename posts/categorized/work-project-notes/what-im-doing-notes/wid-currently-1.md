@@ -39,5 +39,6 @@ Just made a plain PDF when you hit generate siddur.
 
 ## Today:  Sun May 25 2025 08:54:32 CDT - 
 
+I am going to spend 2.5 hours perusing the Expensify repo everyday. 
 
 
