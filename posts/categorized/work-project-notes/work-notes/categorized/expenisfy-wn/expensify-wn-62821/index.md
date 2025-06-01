@@ -17,7 +17,7 @@ function MenuItemList({menuItems = [], shouldUseSingleExecution = false, wrapper
 It IS SearchTypeMenu 
 
 
-Start:  Thu May 29 05:31:13 PM CDT 2025
+## Start:  Thu May 29 05:31:13 PM CDT 2025
 
 
 I realize it's called the /search page 
@@ -118,12 +118,10 @@ This is where I'm cooking at:
 src/components/Search/index.tsx
 
 
+## Start: Sun Jun 01 2025 15:43:40 CDT
 
 
-
-
-
-
+A workaround could be, to shave off the URL to the ADesc but may be too technical to be workable.  
 
 
 
