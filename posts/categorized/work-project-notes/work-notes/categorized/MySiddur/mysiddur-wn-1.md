@@ -111,5 +111,9 @@ I want to make a page called 'Custom Siddur' but I don't want it to be behind a 
 I don't like the idea of just all of a sudden entering the login page, very jarring.
 
 
+## Start: Sun Jun 01 2025 16:33:20 CDT
+
+
+I want a schedule for lifters/ jumpers which will be year round and feature periodization and we all PR at the same time. 
 
 

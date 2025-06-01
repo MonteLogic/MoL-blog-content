@@ -19,8 +19,12 @@ Aside: I wish there was an easy way to test out the thousands of stacks in a cer
 
 Aside: I would like to turn off ctrl+shift+v for VS Code as it messes with my Vim stuff. 
 
-Aside: Native speech to text functionality for Ubuntu, oy vey would I like this, and have it be seamless, oy.
+Aside: Native speech to text functionality for Ubuntu, oy vey would I like this, and have it be seamless, oy. Would have to make the drivers fast. 
 
 
+Aside: What I would do to have a sort of history of things I select and use as sort of my quick copy and paste, it would be dope if you could press a number and then hit the wheel toggle and it would be nth one of which was in the history of the selections. 
+
+
+Aside: A way for knowing what you already know would be for the Custom Podcaster to examine the codebase and commit history you have and then it will know what you do and don't know. 
 
 
