@@ -103,3 +103,13 @@ mαkesiddur.com is good
 
 
 
+
+## Start: Mon May 26 08:56:04 PM CDT 2025
+
+I want to make a page called 'Custom Siddur' but I don't want it to be behind a paywall. 
+
+I don't like the idea of just all of a sudden entering the login page, very jarring.
+
+
+
+
