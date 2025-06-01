@@ -82,7 +82,7 @@ Currently we are trying to figure out where that button is pressed so we can int
 
 
 
-Aside: When I'm working with these large codebsaes,what I neeed to do is search for files which have two of the same string of texts I am looking for.
+Aside: When I'm working with these large codebases,what I need to do is search for files which have two of the same string of texts I am looking for.
 
 
 
@@ -107,7 +107,7 @@ I was thinking about doing it so, where you would change the arrow button in the
 .... 
 
 
-How about when there's a something wrong state then we snip back the URL to not have the %25%25 stuff, and change it to Adesc at the end. 
+How about when there's a 'something wrong', state then we snip back the URL to not have the %25%25 stuff, and change it to Adesc at the end. 
 
 
 I found all of the error loading screen files, I just need to find the logic which manipulates the URL and manipulates it.
@@ -124,5 +124,22 @@ src/components/Search/index.tsx
 A workaround could be, to shave off the URL to the ADesc but may be too technical to be workable.  
 
 
+The issue is still if there is a bogus URL it's stuck in the suspended state so we need to fix this 'suspended state'.
 
 
+
+It will take in any variations of the URL and return it without the ADesc. 
+
+... 
+
+But what's going on with decodeURIComponent, need to understand this function. 
+
+... 
+
+
+I feel like we need to know where the arrow is going so we can interdict it as such. 
+
+
+
+### Address the issue directly
+trailingPercentEncodingRegex = /(%25)+$/;

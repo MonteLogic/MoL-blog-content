@@ -17,3 +17,10 @@ Another aside: I feel like there is an easier way to sync environments between t
 Aside: I wish there was an easy way to test out the thousands of stacks in a certain use case to experiment to know which one fits the use case the best.
 
 
+Aside: I would like to turn off ctrl+shift+v for VS Code as it messes with my Vim stuff. 
+
+Aside: Native speech to text functionality for Ubuntu, oy vey would I like this, and have it be seamless, oy.
+
+
+
+
