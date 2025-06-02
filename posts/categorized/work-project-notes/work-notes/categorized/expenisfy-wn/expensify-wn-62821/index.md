@@ -116,3 +116,117 @@ Looking for the correspondence to Search_Root.
 
 Okay, so I solved it but I feel like I need to do some further distillations. 
 
+
+Prior notes:
+
+
+I don't want to touch this file, 
+
+src/components/Search/index.tsx
+
+Maybe one or two lines onto this file. 
+
+Ideally I would go into the modal overfolding something wrong page, or the page which says not found and stuck. 
+
+There's a lot that goes into there. 
+But these are just UI components:
+
+src/components/BlockingViews/FullPageNotFoundView.tsx
+
+
+This is the magnifying glass looking thing:
+
+
+```ts
+    if (hasErrors) {
+        return (
+            <View style={[shouldUseNarrowLayout ? styles.searchListContentContainerStyles : styles.mt3, styles.flex1]}>
+                <FullPageErrorView
+                    shouldShow
+                    subtitleStyle={styles.textSupporting}
+                    title={translate('errorPage.title', {isBreakLine: !!shouldUseNarrowLayout})}
+                    subtitle={'Hi'}
+                />
+            </View>
+        );
+    }
+
+
+```
+
+These are all UI components with the exception of index.ts
+
+
+
+
+## What exactly did I add? 
+
+
+
+
+
+## The useEffect: 
+
+Aside: I would like a code block here so I can go line by line and discuss the hook. 
+```ts
+
+    useEffect(() => {
+        // Destructure sortOrder (and potentially other parameters) from queryJSON.
+        // Renaming sortOrder here to avoid confusion if queryJSON itself is modified directly later,
+        // though we are using a correctedQueryJSON copy.
+        const {sortOrder: currentSortOrderInQueryJSON} = queryJSON;
+        let needsCorrection = false;
+
+        // Create a mutable copy of queryJSON to hold potential corrections.
+        const correctedQueryJSON: SearchQueryJSON = {...queryJSON};
+
+        // --- Parameter Correction Logic ---
+        // Check if sortOrder is a string and ends with one or more literal '%' characters.
+        if (typeof currentSortOrderInQueryJSON === 'string' && /%+$/.test(currentSortOrderInQueryJSON)) {
+            Log.info(`[Search] Malformed sortOrder detected in queryJSON: "${currentSortOrderInQueryJSON}"`);
+            // Remove all trailing '%' characters.
+            correctedQueryJSON.sortOrder = currentSortOrderInQueryJSON.replace(/%+$/, '') as SortOrder;
+            Log.info(`[Search] Corrected sortOrder to: "${correctedQueryJSON.sortOrder}"`);
+            needsCorrection = true;
+        }
+
+        // FUTURE: You could add similar checks for other string parameters in queryJSON
+        // if they are also susceptible to this "%%%" suffix issue. For example:
+        // if (typeof correctedQueryJSON.status === 'string' && /%+$/.test(correctedQueryJSON.status)) {
+        //     Log.info(`[Search] Malformed status detected: "${correctedQueryJSON.status}"`);
+        //     correctedQueryJSON.status = correctedQueryJSON.status.replace(/%+$/, '');
+        //     Log.info(`[Search] Corrected status to: "${correctedQueryJSON.status}"`);
+        //     needsCorrection = true;
+        // }
+        // --- End of Parameter Correction Logic ---
+
+        // If any parameter was corrected, proceed to update the URL.
+        // Inside your useEffect for URL correction:
+        if (needsCorrection) {
+            const newQueryString = buildSearchQueryString(correctedQueryJSON);
+            const currentRawQueryString = (route.params as {q?: string})?.q;
+
+            if (newQueryString !== currentRawQueryString) {
+                Log.info(
+                    `[Search] Dispatching REPLACE action for screen <span class="math-inline">\{SCREENS\.SEARCH\.ROOT\}\. Old raw q\: "</span>{currentRawQueryString ?? 'undefined'}", New q: "${newQueryString}"`,
+                );
+
+                // Use navigation.dispatch with StackActions.replace:
+                navigation.dispatch(
+                    StackActions.replace(SCREENS.SEARCH.ROOT, {
+                        // Target screen name
+                        q: newQueryString, // Params for the target screen
+                    }),
+                );
+            } else {
+                Log.info(`[Search] Correction applied, but newQueryString is identical to currentRawQueryString ("${currentRawQueryString ?? 'undefined'}"). No navigation needed.`);
+            }
+        }
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [queryJSON, navigation, route.params]); // Dependencies for the useEffect hook.
+
+
+```
+
+Line 177* 
