@@ -54,7 +54,7 @@ The link between the video link between the pilot is the thing which takes a lot
 
 I think the best thing would be an airship drone which goes over the territory, drops munitions and returns to the sender. 
 
-The munitions dropped could be dropped autonomously. 
+The munitions dropped could be guided autonomously. 
 
 
 
