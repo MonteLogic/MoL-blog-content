@@ -26,8 +26,11 @@ It'll just say Fitness and link to MoLogTrain.com/goals
 
 -✔️ Get MoL blog on Vercel using Next.js with MoL Blog Stack
 -- ✔️ Setup private vs. public logic for posts.
--- 🟢 Code bounties
+-- ✔️️ Code bounties
 -- Make courses 
+-- 🟢 Podcast Generation for LLM site.
+-- Generate Siddur
+
 
 
 
