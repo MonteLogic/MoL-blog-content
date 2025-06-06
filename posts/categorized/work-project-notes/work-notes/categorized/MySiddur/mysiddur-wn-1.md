@@ -117,3 +117,13 @@ I don't like the idea of just all of a sudden entering the login page, very jarr
 I want a schedule for lifters/ jumpers which will be year round and feature periodization and we all PR at the same time. 
 
 
+## Start: Fri Jun 06 2025 17:05:07 CDT
+
+I would like to imprint sections on to a image because I know the drawing capabalities are very limited. 
+
+
+Aside: I want to switch from index.md to the name of project for easier lookup.
+
+
+
+
