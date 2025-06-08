@@ -30,10 +30,21 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1fefbu0/notebooklmgoogle
 
 
 
+Asides:
 
 .... 
 
 I wonder for those chatbot arenas there could be a way where you say, this convo is failing, lets export it/ put it in the stumped box. 
+
+
+... 
+
+
+What if we have a stump box and instead of fixing that precise use case why can't we generalize and generalize it in a way which would be hard for the LLM to tune to. 
+
+
+What about LLM arena with total transparency, ideally use blockchain for payment data. 
+
 
 
 

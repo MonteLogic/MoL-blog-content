@@ -258,4 +258,47 @@ https://github.com/Expensify/App/compare/main...huult:App:62443-test?expand=1
 ### Check a PR on a large repo, quickly, as quick as possible and very lightweight as well. 
 
 
+Figured it out. 
+
+There's some difficulties with the npm install script but that didn't take too long. I think what takes the longest is setting up the dev environment. 
+
+Make sure to replace the project specific names. 
+
+Some of the commands: 
+
+```bash
+# In your local clone of Expensify/App
+git remote add huult https://github.com/huult/App.git
+
+git fetch huult 62443-test
+
+git checkout -b huult-62443-test huult/62443-test
+
+# Generating this diff isn't all THAT helpful but can be useful
+git diff main..huult-62443-test -- package.json
+
+# Gemini says:
+# Review the output of this command. It will show you any lines added or modified in the dependencies or devDependencies. If you see new packages or version changes, install only those specific packages.
+# But it would be easier to just run 'rm -rf' node_modules and do it again, this works well if your not under internet data constraints.  
+
+```
+
+Also he kept on working on the branch, so what to do in order to get an accurate reading is clone or pull or checkout whichever one works, the exact commit which they are referencing. 
+
+I would think doing this from scratch would be the best way to capture the thereabout. 
+
+
+
+
+### 
+I don't know why he got rid of onBackButtonPress
+
+### 
+I'm getting the oops something wrong page rather than hmm.. its not here. 
+Going to do fresh clone.
+
+
+
+### 
+I tried to chase down the issue took way too long but I'm looking through the diffs and I should just add them judiciously.
 
