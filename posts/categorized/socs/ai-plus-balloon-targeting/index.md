@@ -19,3 +19,9 @@ The issue with this is,
 
 
 I think the software of flying it once it's there isn't hard, I would say, getting it THERE would be the hard part. 
+
+
+# End: Sun Jun 08 2025 10:19:59 CDT
+
+
+This will mess up international shipping so I'm not going to do it, it would be better to just get some box you can smuggle in which would be very bad for those planes.

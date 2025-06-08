@@ -31,6 +31,10 @@ https://www.reddit.com/r/ArtificialInteligence/comments/1fefbu0/notebooklmgoogle
 
 
 
+.... 
+
+I wonder for those chatbot arenas there could be a way where you say, this convo is failing, lets export it/ put it in the stumped box. 
+
 
 
 
