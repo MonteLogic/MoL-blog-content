@@ -67,3 +67,5 @@ Likely root cause:
 It seems the malformed URL is being stored or cached on the backend. So even after clearing the browser cache, the backend continues to return the same broken URL, resulting in the persistent error page.
 
 
+How do links fundamentally work and how are they tied into the backend?
+
