@@ -461,7 +461,7 @@ https://dev.new.expensify.com:8082/r/6491421586538563/
 
 ... 
 
-I still feel like we're going to need the useEffect.
+We may still need the useEffect or a similar mechanism because we will have to update the state.
 
 
 We click on this from the chat:
@@ -475,5 +475,7 @@ And from there
 We click on this from the chat:
 https://dev.new.expensify.com:8082/search/view/7244371145701894/?backTo=%2Fsearch%3Fq%3Dtype%253Aexpense%2520status%253Aall%2520sortBy%253Adate%2520sortOrder%253AdescRandomChars
 
-So, it's going to show the proper error screen and then it's going to clear cache and go back to where it was supposed to be and stay on the reports page or go on the home page. 
+So, it's going to show the proper error screen on Desktop and Mobile and then it's going to clear cache and go back to where it was supposed to be and stay on the reports page or go on the home page. 
 
+
+I feel like we need to do an overhaul of this backend caching thing.
