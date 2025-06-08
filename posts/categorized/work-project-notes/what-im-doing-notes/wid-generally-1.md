@@ -28,8 +28,8 @@ It'll just say Fitness and link to MoLogTrain.com/goals
 -- ✔️ Setup private vs. public logic for posts.
 -- ✔️️ Code bounties
 -- Make courses 
--- 🟢 Podcast Generation for LLM site.
--- Generate Siddur
+-- 🟡 Podcast Generation for LLM site.
+-- 🟢 Generate Siddur
 
 
 
