@@ -302,3 +302,178 @@ Going to do fresh clone.
 ### 
 I tried to chase down the issue took way too long but I'm looking through the diffs and I should just add them judiciously.
 
+### 
+Also, you can't just click view commit details.
+
+You need to view the file and go from there basically never rely on GitHub.com UI to be more accurate than the terminal access. 
+
+You need to check the last edited and make sure it matches the sha. 
+
+So that would end up being:
+
+https://github.com/huult/App/blob/952c1846f49e8eb2d9d3b35ccc0e2f45e3b965eb/src/components/BlockingViews/FullPageNotFoundView.tsx
+
+### 
+
+Adding just a character for me, for some reason, makes it so the modal stops folding. 
+
+But breaks when the simple character is added. 
+
+Aside:
+Before I tackle/"go back into" an issue: 
+
+What is something I could have looked over?
+
+
+Is there a way to avoid this by refactoring/simplifying the app/solution?  
+
+... 
+
+The solution huult proposed works for mobile for the specific link, broadening the issue
+
+
+... 
+I thought going back to the home screen was bad. But I guess on Mobile it's good, "On small screens, the app should ideally route back to the Home screen on pressing back button on the RHP when a url fails to load — similar to how we handle invalid chat/report."
+
+
+... 
+
+"What is something I could have looked over?"
+"I could have looked over," the different URLs and how each can produce different results.
+
+"I could have looked over,"
+
+
+
+Is there a way to avoid this by refactoring/simplifying the app/solution?  
+
+... 
+
+toDo @builderbot: Bash Requests: 
+Output the current path in the terminal, bonus if it adds it to the clipboard. 
+
+... 
+Aside:
+What if there was a way to request an LLM fix or suggest what I'm trying to do and put it and article.
+and just @builderbot but make it also comment look so everyone doesn't know and have builderbot link back to where it found it's own reference and why it built it the way it built it.
+... 
+
+
+
+I'm not sure if this [response](https://github.com/Expensify/App/issues/62821#issuecomment-2933855910), is directed at me or just a general response not accounting for my proposal. 
+
+
+Not going to respond with this: 
+"
+I AM under the assumption that that response was directed to me because MY solution does bring the user back to the reports page for mobile. While staging doesn't(?)
+"
+
+Anyways:
+
+
+I have to make mobile like my Desktop solution viz.  
+
+"
+On mobile (small screens), pressing the back button on a malformed URL like
+https://dev.new.expensify.com:8082/r/6491421586538563/details navigates the user back to the Home page, instead of showing the error page (for https://dev.new.expensify.com:8082/r/6491421586538563/) — unlike the behavior on desktop.
+We might want to consider making the Search page behavior consistent with this, so that on mobile, users are taken back to the Home page when a url fails to load the RHP.
+
+"
+
+Why is mobile and Desktop so different? 
+
+
+On here, 
+"
+For the second issue specifically, I think we already implement a similar handling mechanism for deep links in chat/report. Could you please review that implementation to see if we can apply a similar approach here?
+
+"
+
+
+...
+
+On desktop the intervening logic of pressing the back button isn't present so I think it would 'bypass' this process. 
+
+What is it avoiding by using the back skip button which doesn't hit my useEffect? 
+
+
+... 
+
+I also think I should look into what they mean by the deep handling mechanism for links? What is he talking about? 
+
+... 
+
+I'm not sure about the mechanism you're talking about. 
+
+
+.... 
+
+Okay so on mobile smaller screens:
+Mobile View:
+URL 1 -
+https://dev.new.expensify.com:8082/r/6491421586538563/details
+
+[URL 1](media/URL-1-mobile-view-details.png)
+
+
+Mobile View:
+URL 2 - 
+https://dev.new.expensify.com:8082/r/6491421586538563
+
+[URL 2](media/URL-2-mobile-view-no-details.png)
+
+... 
+
+He likes "chat or expenses" in the background.
+
+
+Okay, So for the mobile part of my solution the user may not know they entered in a bogus report/expense. 
+
+Why is it not showing the error for 
+
+
+... 
+
+
+I wonder if on staging it shows the correct error prompt, it does.
+
+https://staging.new.expensify.com/r/6491421586538563/details
+
+....
+
+I couldn't get it to show the correct error for mobile.
+So, make it so 
+
+... 
+
+Also, I need to make a test branch and not just commit to main, ideally, named after the exact same error I am trying to fix. 
+
+...
+
+I also have yet to fix the former part of the issue, I have to put all of those wildcards in there and change it with a useEffect when I could handle the bad caching on the backend but right now, I'm going to finish my thought of showing the correct error page. 
+
+
+... 
+
+I have to get this view on mobile page:
+https://dev.new.expensify.com:8082/r/6491421586538563/
+
+
+... 
+
+I still feel like we're going to need the useEffect.
+
+
+We click on this from the chat:
+https://dev.new.expensify.com:8082/search/view/7244371145701894/?backTo=%2Fsearch%3Fq%3Dtype%253Aexpense%2520status%253Aall%2520sortBy%253Adate%2520sortOrder%253AdescRandomChars
+
+And from there 
+
+
+
+## The task
+We click on this from the chat:
+https://dev.new.expensify.com:8082/search/view/7244371145701894/?backTo=%2Fsearch%3Fq%3Dtype%253Aexpense%2520status%253Aall%2520sortBy%253Adate%2520sortOrder%253AdescRandomChars
+
+So, it's going to show the proper error screen and then it's going to clear cache and go back to where it was supposed to be and stay on the reports page or go on the home page. 
+
