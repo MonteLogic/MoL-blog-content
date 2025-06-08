@@ -12,3 +12,7 @@ I don't feel like what is being clogged up in a lot of those repos is technical 
 Or just creative or creative solutions which implies the missing data. 
 
 
+## .. 
+
+The points which baffle the most are the one which shakes the ground which the question is based upon.
+
