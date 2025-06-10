@@ -69,3 +69,15 @@ It seems the malformed URL is being stored or cached on the backend. So even aft
 
 How do links fundamentally work and how are they tied into the backend?
 
+## Start: Tue Jun 10 2025 02:02:53 CDT
+
+buildCannedSearchQuery
+To resolve this issue, we just need to update the search query to use buildCannedSearchQuery, which is the default query. I tested many solutions like updating the route or deleting the search screen, but they were too complex. So I decided to suggest a simpler solution: introduce a flag inside the Search component to reset the search query, like this:
+
+Onyx.set(ONYXKEYS.SEARCH_RESET_QUERY, true);
+
+
+## Pause: Tue Jun 10 2025 02:10:10 CDT
+
+
+
