@@ -72,3 +72,13 @@ These are the issues, AI has a tough time doing and it's the wise thing to just 
 
 
 
+
+We just need to get the mobile thing which is not loading good: 
+https://github.com/MonteLogic/MoL-blog-content/blob/9f7db7e7282e67fe8d7512952dca1587b5b63f54/posts/categorized/work-project-notes/work-notes/categorized/expenisfy-wn/expensify-wn-62821/expensify-mechanism-for-handling-links.md#L8
+
+We also need to fix, the something went wrong page:
+https://github.com/MonteLogic/MoL-blog-content/blob/9f7db7e7282e67fe8d7512952dca1587b5b63f54/posts/categorized/work-project-notes/work-notes/categorized/expenisfy-wn/expensify-wn-62821/expensify-mechanism-for-handling-links.md#L8
+
+
+
+

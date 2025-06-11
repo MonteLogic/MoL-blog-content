@@ -482,3 +482,6 @@ I feel like we need to do an overhaul of this backend caching thing.
 
 
 ## Start: Wed Jun 11 2025 04:43:58 CDT
+
+There's a lot to study here:
+https://github.com/Expensify/App/blob/3bb4fb3897f9393340aebc846f6cfedf18a6116e/src/libs/actions/Link.ts#L157
