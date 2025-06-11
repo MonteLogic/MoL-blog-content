@@ -495,4 +495,6 @@ He mentions the cache isn't resetting so something to do with the backend, how s
 
 I'm punting this issue for now. Will check back later.
 
+I'm going to work on this one:
+https://github.com/Expensify/App/issues/63577
 
