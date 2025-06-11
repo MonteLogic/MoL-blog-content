@@ -125,4 +125,28 @@ I would like to imprint sections on to a image because I know the drawing capaba
 Aside: I want to switch from index.md to the name of project for easier lookup.
 
 
+## Start: Tue Jun 10 2025 04:09:35 CDT
+
+What I would love is to color coat it viz. 
+
+This would be blue:
+
+שֶׁהֶֽחֱזַֽרְת
+
+and this would be blue also:
+
+for You have mercifully restored
+
+.... 
+
+
+Fixing the start scripts.
+
+Error: Command "pnpm install && cd MoL-blog-content && pnpm install && cd .." exited with 1 
+
+
+... 
+
+I guess I'm getting errors with Stripe subscription stuff. 
+
 
