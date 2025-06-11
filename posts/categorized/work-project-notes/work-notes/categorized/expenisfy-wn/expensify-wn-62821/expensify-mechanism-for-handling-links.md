@@ -80,5 +80,18 @@ We also need to fix, the something went wrong page:
 https://github.com/MonteLogic/MoL-blog-content/blob/9f7db7e7282e67fe8d7512952dca1587b5b63f54/posts/categorized/work-project-notes/work-notes/categorized/expenisfy-wn/expensify-wn-62821/expensify-mechanism-for-handling-links.md#L8
 
 
+## Start: Wed Jun 11 2025 17:20:19 CDT
+
+
+Trying out Excalidraw for visualizing the links
+
+Here we go: 
+
+https://gist.github.com/search?q=extension%3Aexcalidraw
+
+
+I like this one: 
+https://gist.github.com/MonteLogic/776f97d73846a0127a00563c2bc8e09c
+
 
 

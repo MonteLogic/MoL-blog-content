@@ -485,3 +485,29 @@ I feel like we need to do an overhaul of this backend caching thing.
 
 There's a lot to study here:
 https://github.com/Expensify/App/blob/3bb4fb3897f9393340aebc846f6cfedf18a6116e/src/libs/actions/Link.ts#L157
+
+
+
+... 
+
+
+Really what we need to do is mock the setup 
+
+and ig in the background we can have a machine 
+
+
+but whenever an action happens we need to list everything that happens but it also needs to be in a detailed view.
+
+
+.... 
+
+So we need to have like a mock setup of where it's at also we would include everything we know about the app at that specific time and then when it goes onto the next process we get the intermediary action info and then we list in detail where it's currently at in it's current state, similar to how we would in the first step. 
+
+and then we can have mobile view and desktop view 
+
+
+Mobile view () => () => () 
+
+
+Desktop view () => () => () 
+
