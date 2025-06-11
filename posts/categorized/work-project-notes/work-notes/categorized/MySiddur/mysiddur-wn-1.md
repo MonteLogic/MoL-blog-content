@@ -149,4 +149,9 @@ Error: Command "pnpm install && cd MoL-blog-content && pnpm install && cd .." ex
 
 I guess I'm getting errors with Stripe subscription stuff. 
 
+## Start: Wed Jun 11 2025 04:29:06 CDT
 
+
+Fixed the .env by putting an appropriate var in. 
+
+Added issues.
