@@ -39,6 +39,16 @@ https://frontendmasters.com/courses/javascript-hard-parts-v2/#
 
 
 
+First to do:
+
+https://frontendmasters.com/courses/dev-tools-v4/
+
+https://frontendmasters.com/courses/vs-code-v2/
+
+https://frontendmasters.com/courses/web-app-testing/
+
+
+Note, the dev-tools-v4 course is good and shows debugging on the frontend but I really need to figure out debugging on the backend as well. 
 
 
 
