@@ -41,4 +41,23 @@ Just made a plain PDF when you hit generate siddur.
 
 I am going to spend 2.5 hours perusing the Expensify repo everyday. 
 
+I submitted a proposal. 
+
+
+## Today: Fri Jun 13 2025 15:41:42 CDT
+
+
+So, I gotta fix that Siddur to make it usable for PDFs I also have to add a lot more notes to it. 
+
+Really I should be praying and saying what I'm doing and writing down if it was a Kosher prayer or not. 
+
+REALLY, I should be making prayer logs. 
+
+
+### Making Prayer Logs
+
+
+
+
+
 
