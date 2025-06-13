@@ -49,12 +49,16 @@ I submitted a proposal.
 
 So, I gotta fix that Siddur to make it usable for PDFs I also have to add a lot more notes to it. 
 
+### Making Prayer Logs
 Really I should be praying and saying what I'm doing and writing down if it was a Kosher prayer or not. 
 
 REALLY, I should be making prayer logs. 
 
 
-### Making Prayer Logs
+### As for Expensify
+
+I got a debug tool with Replay.io so I will use the browser state to better write down Excalidraw flow diagrams. 
+
 
 
 
