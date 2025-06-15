@@ -67,6 +67,15 @@ I would also like to import from an Excalidraw but you just add onto it and it d
 
 I think I'm going to use Odin for the Factory Manager which is an LLM-VIZ adaptation.
 
+... 
+
+I should make a checklist sort of web app which will account for every 'base' which needs to be covered in order to have the most exquisite brain activity.
+
+
+Creatine, the BCAAs (from Protein), the Nootropics
+
+
+Note: It's important to take it as a gummy as you will be less likey to miss dosages. 
 
 
 
