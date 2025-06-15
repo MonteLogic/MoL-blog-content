@@ -63,6 +63,12 @@ I want multiple tabs to have different things so that
 
 I would also like to import from an Excalidraw but you just add onto it and it doesn't ask you to replace it. 
 
+... 
+
+I think I'm going to use Odin for the Factory Manager which is an LLM-VIZ adaptation.
+
+
+
 
 
 

@@ -498,3 +498,58 @@ I'm punting this issue for now. Will check back later.
 I'm going to work on this one:
 https://github.com/Expensify/App/issues/63577
 
+
+## Start: Sun Jun 15 2025 12:52:33 CDT
+
+I am revisiting this issue due to the fact that I have this new debugging tool Replay.io.
+
+
+### Using Replay.io
+
+I am on Linux and I can't seem to find out how to just open it up like I would say, open up Google Chrome. 
+
+What command I am going to run 
+
+```bash
+
+replayio record https://dev.new.expensify.com:8082/home
+
+
+
+
+```
+
+Got the uploader to work after installing some lib I needed
+
+replayio record --allow-insecure https://dev.new.expensify.com:8082/home
+
+```bash
+monte@monte-ThinkPad-T14-Gen-1:~$ wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+--2025-06-15 13:18:45--  http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+Resolving archive.ubuntu.com (archive.ubuntu.com)... 2620:2d:4002:1::101, 2620:2d:4000:1::102, 2620:2d:4002:1::103, ...
+Connecting to archive.ubuntu.com (archive.ubuntu.com)|2620:2d:4002:1::101|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1318204 (1.3M) [application/vnd.debian.binary-package]
+Saving to: ‘libssl1.1_1.1.1f-1ubuntu2_amd64.deb’
+
+libssl1.1_1.1.1f-1u 100%[===================>]   1.26M  5.90MB/s    in 0.2s    
+
+2025-06-15 13:18:45 (5.90 MB/s) - ‘libssl1.1_1.1.1f-1ubuntu2_amd64.deb’ saved [1318204/1318204]
+
+monte@monte-ThinkPad-T14-Gen-1:~$ sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+[sudo] password for monte: 
+Selecting previously unselected package libssl1.1:amd64.
+(Reading database ... 221685 files and directories currently installed.)
+Preparing to unpack libssl1.1_1.1.1f-1ubuntu2_amd64.deb ...
+Unpacking libssl1.1:amd64 (1.1.1f-1ubuntu2) ...
+Setting up libssl1.1:amd64 (1.1.1f-1ubuntu2) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.10) ...
+monte@monte-ThinkPad-T14-Gen-1:~$ replayio record --allow-insecure https://dev.new.expensify.com:8082/home
+Recording... (press any key to stop recording)
+
+✔ New recording found. Would you like to upload it? (Y/n)
+
+
+
+```
+
