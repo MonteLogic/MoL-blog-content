@@ -78,6 +78,15 @@ Creatine, the BCAAs (from Protein), the Nootropics
 Note: It's important to take it as a gummy as you will be less likey to miss dosages. 
 
 
+... 
+
+For the txt99 stack.
+
+I want to use a CLI of sorts for this and find out which was the last file. 
+
+...
+
+
 
 
 
