@@ -46,5 +46,26 @@ _____________________
 
 Desktop view () => () => () 
 
+...
+
+
+Ideally, you wouldn't need replay.io but in the end for tricky bugs it is not feasible to not need a debugger like this.
+
+
+
+But the trick is to not code in a way which you constantly need this tool. 
+
+
+.... 
+
+I want multiple tabs to have different things so that 
+
+
+I would also like to import from an Excalidraw but you just add onto it and it doesn't ask you to replace it. 
+
+
+
+
+
 
 
