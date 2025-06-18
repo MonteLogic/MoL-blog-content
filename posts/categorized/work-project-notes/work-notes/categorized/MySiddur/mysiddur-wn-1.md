@@ -186,5 +186,23 @@ Elohai Neshamah (My God, the Soul)  *continued
 ----
 So we just continue it.
 
+That's better but we need it to be like
+
+Aside: I wonder if there's like a hotkey or function I could do where I could copy the latest commit hash for whatever project I'm in.
+
+-----
+Page 1.)
+Elohai Neshamah (My God, the Soul)
+
+-----
+Page 2.)
+
+Elohai Neshamah (My God, the Soul)  *continued 
+
+----
+So we just continue it.
+
+
+
 
 
