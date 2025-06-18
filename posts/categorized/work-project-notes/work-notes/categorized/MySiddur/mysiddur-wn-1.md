@@ -155,3 +155,36 @@ I guess I'm getting errors with Stripe subscription stuff.
 Fixed the .env by putting an appropriate var in. 
 
 Added issues.
+
+
+## Start: Wed Jun 18 2025 16:42:23 CDT
+
+For the PDF formatting, 
+Like I don't know how it knows when it's about to experience a break in the line and I would have to figure all that stuff out again and I don't feel like doing that I wonder if I blogged about this in the past.
+
+
+This is a useful file from my prior project:
+https://github.com/MonteLogic/contractor-bud/blob/ae7c65af69962c6b4a08468ffe4b8e74a75610bf/utils/timecards/pdf-coordinates.json#L4
+
+
+... 
+
+
+
+That's better but we need it to be like
+
+
+-----
+Page 1.)
+Elohai Neshamah (My God, the Soul)
+
+-----
+Page 2.)
+
+Elohai Neshamah (My God, the Soul)  *continued 
+
+----
+So we just continue it.
+
+
+
