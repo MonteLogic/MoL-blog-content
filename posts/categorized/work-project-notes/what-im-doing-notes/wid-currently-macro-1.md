@@ -60,8 +60,26 @@ REALLY, I should be making prayer logs.
 I got a debug tool with Replay.io so I will use the browser state to better write down Excalidraw flow diagrams. 
 
 
+...
+
+## For now on
+
+Going to just check in on Expensify 
 
 
+I am going to focus on my projects and make the 1.0s 
 
 
+MySiddur and I would also like to make an app so I can measure my jump times and flys way better.
+
+I would also like to blog more about pro-natalism 
+
+On that pro-natalism tip, I would like to get the workaway thing going good viz. the plan of working 80+ hours with overtime with an employer with deep pockets, then at the end of the 6 months or however long you could get like 50k and then you take that down to one of the magic living zones and live like a Litvak.
+
+
+Workaway - 
+Get welding certs
+Get nuclear work certs 
+
+You need to break into the industry so you're going to need contacts.
 
