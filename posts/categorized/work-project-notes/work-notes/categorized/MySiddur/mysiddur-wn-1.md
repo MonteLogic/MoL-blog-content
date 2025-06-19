@@ -203,6 +203,9 @@ Elohai Neshamah (My God, the Soul)  *continued
 So we just continue it.
 
 
+Question to answer: 
+### What should every Temporary Siddur have?
+
 
 
 
