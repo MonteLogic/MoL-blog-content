@@ -209,3 +209,11 @@ Question to answer:
 
 
 
+... 
+
+## Start: Thu Jun 19 2025 17:16:42 CDT
+
+
+I think there should be a customizing like backway where you can select the MySiddur code shipment you would like your Siddur from viz. the codebase at a certain time.
+
+
