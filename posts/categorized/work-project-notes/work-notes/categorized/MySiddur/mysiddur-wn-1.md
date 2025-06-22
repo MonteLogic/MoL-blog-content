@@ -217,3 +217,30 @@ Question to answer:
 I think there should be a customizing like backway where you can select the MySiddur code shipment you would like your Siddur from viz. the codebase at a certain time.
 
 
+
+... 
+
+## Start: Sun Jun 22 2025 08:53:11 CDT
+
+Right now they are all even and they don't continue into other pages but that's what we want.
+
+We need to break this up into multiple files:
+utils/siddur-pdf-utils/siddurMainFile.ts
+
+I am currently working on the thing so it doesn't go into new pages:
+
+
+https://gemini.google.com/u/1/app/34dee3c602f4624b
+
+
+Currently a verse like this can't share two pages
+
+```md
+Elohai Neshamah (My God, the Soul)
+My God, the soul You placed within
+me is pure. You created it, You
+formed it, You breathed it into me,
+and You preserve it within me. You
+will eventually take it from me, and
+restore it to me in the time to
+```
