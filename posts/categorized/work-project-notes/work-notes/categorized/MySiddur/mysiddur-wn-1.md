@@ -244,3 +244,77 @@ and You preserve it within me. You
 will eventually take it from me, and
 restore it to me in the time to
 ```
+
+## Start: Thu Jun 26 2025 05:27:26 CDT
+
+From Gemini:
+
+Is there logic in there which says if the whole section will not fit on the page, default to adding the section to the page after
+
+
+Yes, there is logic in ashkenaz-content-generation.ts that attempts to determine if a whole section, or a whole prayer within a section, will fit on the current page, and if not, it defaults to adding a new page and placing the content there.
+
+This logic is present in the following conditional checks:
+
+For an entire section's header (title and description):
+
+```ts
+
+if (y < siddurConfig.pdfMargins.bottom + estimatedSectionHeaderHeight + siddurConfig.verticalSpacing.pageBuffer) {
+    page = pdfDoc.addPage();
+    y = height - siddurConfig.pdfMargins.top;
+    commonPdfParams = { ...commonPdfParams, page, y };
+}
+```
+
+This block checks if the current y position is too close to the bottom margin to accommodate the estimatedSectionHeaderHeight. If it's not enough space, a new page is added, and y is reset to the top of the new page.
+
+For an entire prayer (title and content):
+
+TypeScript
+```ts
+
+if (y < siddurConfig.pdfMargins.bottom + prayerTitleTextHeight + estimatedPrayerContentHeight + siddurConfig.verticalSpacing.pageBuffer) {
+    page = pdfDoc.addPage();
+    y = height - siddurConfig.pdfMargins.top;
+    commonPdfParams = { ...commonPdfParams, page, y };
+}
+
+```
+
+Similarly, this block checks if the prayerTitleTextHeight plus the estimatedPrayerContentHeight will fit on the current page. If not, a new page is added.
+
+For blessing groups and part groups within a prayer:
+There are also similar checks within the blessings and parts loops, though these are estimating for a single blessing/part pair rather than the entire group:
+
+
+```ts
+// Inside blessings loop
+if (blessingY - estimatedBlessingHeight < siddurConfig.pdfMargins.bottom + siddurConfig.verticalSpacing.pageBuffer) {
+    page = pdfDoc.addPage();
+    blessingY = height - siddurConfig.pdfMargins.top;
+    commonPdfParams = { ...commonPdfParams, page, y: blessingY };
+}
+```
+
+And for parts (especially if a part.source exists):
+
+
+```ts
+// Inside parts loop
+if (partY - estimatedPartHeight < siddurConfig.pdfMargins.bottom + siddurConfig.verticalSpacing.pageBuffer) {
+    page = pdfDoc.addPage();
+    partY = height - siddurConfig.pdfMargins.top;
+    commonPdfParams = { ...commonPdfParams, page, y: partY };
+}
+```
+
+The core idea is to perform these height estimations and page break checks before attempting to draw the content block. If the check indicates insufficient space, a new page is added, and the y coordinate is reset to the top of the new page, ensuring the content starts on the fresh page.
+
+
+Siddur 31 - 
+file:///home/monte/Downloads/basic_siddur%20(31).pdf
+
+The first page doesn't look good, the h2 text titles are having text too close to the head of it's text. Also, there's lots of white space. 
+
+
