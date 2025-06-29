@@ -317,4 +317,27 @@ file:///home/monte/Downloads/basic_siddur%20(31).pdf
 
 The first page doesn't look good, the h2 text titles are having text too close to the head of it's text. Also, there's lots of white space. 
 
+## Start: Sun Jun 29 2025 11:28:12 CDT
+
+I feel like I need better debugging.
+
+
+...
+
+Prompt: 
+> Why for this project do we constantly have to refresh the page for PDF Creation to access new logic written is there dev tooling for PDF Creation which will have sort of a hot reload 
+  functionality but on the .ts "server" side of things?
+
+
+
+I need to move all of my .ts logic for pdf creation into a lib folder
+
+✦ That sounds frustrating. The standard Next.js development server (next dev) is designed to handle hot-reloading for server-side code, including API routes and other modules, so you
+  shouldn't need to manually restart it. When you change a file in the lib/ or app/ directory, the server should automatically pick up the new logic.
+
+
+### Remove debugging logic in prod
+
+I would like to remove debugging logic in prod.
+No console.logs when it's deployed on Vercel.
 
