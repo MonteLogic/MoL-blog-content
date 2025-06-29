@@ -341,3 +341,16 @@ I need to move all of my .ts logic for pdf creation into a lib folder
 I would like to remove debugging logic in prod.
 No console.logs when it's deployed on Vercel.
 
+### I am moving to branch editing now. 
+
+
+On issue 16, why do I even have a utils folder.
+
+Aside: I would like to make an Expensify like clone using Next.js. 
+
+## For the mangled text:
+
+So if there are sources listed there needs to be a sources section which would increment upon the JSON.
+
+
+
