@@ -355,4 +355,145 @@ So if there are sources listed there needs to be a sources section which would i
 
 ## Start: Sun Jul 06 2025 13:15:58 CDT
 
+So, working on the color transliterations. 
 
+
+What I'm thinking:
+
+"
+
+How about we just pair something like Ani and if it's not directly translated good then we put an astericks in there and describe it in the commentary section below. 
+
+
+
+
+Show thinking
+This is an excellent approach! It allows for the precision of word-level (or small phrase-level) alignment where possible, while gracefully handling the complexities of translation and providing valuable extra context.
+
+To achieve this, your JSON structure would need to be re-formatted to break down each prayer into an array of smaller, paired segments. Each segment would contain its Hebrew and English text, plus an optional reference to a commentary if a direct translation isn't sufficient.
+
+Here's how you could structure the JSON for a prayer like "Modeh Ani" or "Asher Yatzar":
+
+Proposed JSON Structure
+You would transform the hebrew and english string fields within your prayer objects into a new array of segments. Each segment would represent a small, translatable unit.
+
+JSON
+
+{
+  "title": "Modeh Ani (I Give Thanks)",
+  "instructions": "Upon awakening, while still in bed:",
+  "contentSegments": [ // New array to hold paired segments or other content types
+    {
+      "type": "pair", // Indicates this segment is a Hebrew-English pair
+      "hebrew": "מוֹדֶה אֲנִי",
+      "english": "I give thanks"
+    },
+    {
+      "type": "pair",
+      "hebrew": "לְפָנֶֽיךָ",
+      "english": "before You"
+    },
+    {
+      "type": "pair",
+      "hebrew": "מֶֽלֶךְ חַי וְקַיָּם.",
+      "english": "living and enduring King.",
+      "commentaryRef": "eternalKing" // Reference to a commentary entry
+    },
+    {
+      "type": "pair",
+      "hebrew": "שֶׁהֶֽחֱזַֽרְתָּ בִּי נִשְׁמָתִי",
+      "english": "for You have restored my soul within me;"
+    },
+    {
+      "type": "pair",
+      "hebrew": "בְחֶמְלָה.",
+      "english": "with mercy."
+    },
+    {
+      "type": "pair",
+      "hebrew": "רַבָּה אֱמֽוּנָתֶֽךָ׃",
+      "english": "Your faithfulness is great.",
+      "commentaryRef": "greatFaithfulness"
+    }
+  ],
+  "commentaries": [ // New section for commentaries, referenced by IDs
+    {
+      "id": "eternalKing",
+      "hebrewOriginal": "מֶֽלֶךְ חַי וְקַיָּם",
+      "description": "Literally 'King, living and existing.' 'Enduring' or 'eternal' captures the nuance of 'וְקַיָּם' (v'kayam), which implies sustained existence."
+    },
+    {
+      "id": "greatFaithfulness",
+      "hebrewOriginal": "רַבָּה אֱמֽוּנָתֶֽךָ",
+      "description": "This phrase speaks to God's abundant and reliable trustworthiness, not just a numerical 'great' amount."
+    }
+  ]
+}
+Key Elements of This Format:
+
+contentSegments Array (New):
+
+Instead of hebrew and english as single strings at the prayer level, you'd introduce an array called contentSegments.
+
+Each object in this array represents a small, logical chunk of the prayer.
+
+type Field within Segments:
+
+This is crucial for flexibility. For most cases, it would be "pair".
+
+You could also imagine other types like "instructions", "lineBreak", etc., if you wanted to manage more complex layout elements directly in the data.
+
+hebrew and english Fields within type: "pair":
+
+These would hold the small, corresponding Hebrew and English text snippets. The goal is to make these as short and direct as possible for good pairing.
+
+commentaryRef (Optional) within type: "pair":
+
+If a hebrew segment's translation needs further explanation (i.e., it's not a perfect direct translation, or has deep meaning), you add a commentaryRef field.
+
+The value of commentaryRef should be a unique ID that points to an entry in the commentaries array.
+
+commentaries Array (New):
+
+A separate array, typically at the prayer object level (or even higher, globally, if commentaries are shared across prayers).
+
+Each object in this array represents a single commentary.
+
+id: A unique identifier for the commentary.
+
+hebrewOriginal: It's very helpful to store the original Hebrew text that the commentary refers to, making it easy to display in the commentary section.
+
+description: The actual explanation of the nuance, meaning, or reason for the translation.
+
+How to Implement in Your Code:
+Data Transformation: The biggest challenge will be manually (or semi-automatically) converting your existing hebrew and english strings into this new contentSegments and commentaries array structure for every prayer. This is a significant data entry task.
+
+PDF Generation Logic Update:
+
+Your generateSiddurPDF function would no longer just draw prayer.hebrew and prayer.english.
+
+It would iterate through prayer.contentSegments.
+
+For each segment of type: "pair":
+
+Draw segment.hebrew in the Hebrew column and segment.english in the English column.
+
+If segment.commentaryRef exists, you would:
+
+Draw an asterisk (or a similar visual indicator like a small number) next to the segment.english text.
+
+Store the commentaryRef for later rendering.
+
+Commentary Section Rendering: You'd need a new section in your PDF (e.g., at the bottom of the page, or a dedicated "Notes" section after the main prayer) where you iterate through the prayer.commentaries array (only for the commentaries that were actually referenced on the current page to avoid blank space) and display them with their hebrewOriginal and description.
+
+This approach gives you fine-grained control and clarity for the user, clearly indicating when a translation is a direct equivalent and when it carries deeper or more complex meaning that warrants further explanation.
+
+
+
+
+
+
+
+
+
+"
