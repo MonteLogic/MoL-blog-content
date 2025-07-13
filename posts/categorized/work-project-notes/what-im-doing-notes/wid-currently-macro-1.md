@@ -83,3 +83,13 @@ Get nuclear work certs
 
 You need to break into the industry so you're going to need contacts.
 
+Really, working 80 hours on your feet is tough so you might be better off trucking.
+
+## Currently: Sun Jul 13 2025 11:45:08 CDT
+
+I think I'm going to work on this profiler and work on tech/SaaS for the healthcare industry. 
+
+https://github.com/MonteLogic/healthcare-profiler
+
+Note, there's a lot more women here so sales is going to be way easier. 
+
