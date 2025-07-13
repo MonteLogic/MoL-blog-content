@@ -490,6 +490,11 @@ This approach gives you fine-grained control and clarity for the user, clearly i
 
 
 
+## Start: Fri Jul 11 2025 14:05:05 CDT
+Okay, so we have to move that Shacharis Service to a sort of dashed line functionality. 
+
+
+
 
 
 
