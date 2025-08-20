@@ -499,6 +499,87 @@ Okay, so we have to move that Shacharis Service to a sort of dashed line functio
 
 
 
+## Start: Sun Jul 27 2025 16:49:59 CDT
 
+
+
+## Start: Mon Aug 11 04:07:44 PM CDT 2025
+
+
+
+So in this file we can just note it's Modei Ani and be like "40-0rwa"
 
 "
+It looks like I can't import it the way I want to on a YAML file so it looks like I'm going to just write in .ts
+
+So, at this moment it's the fact that I cannot reliably import multiple JSON files at the precise values without using a programming language. So not going to use YAML which I wish had this natively or a preprocessed JSON system. 
+
+
+
+
+## Start: Sun Aug 17 08:17:32 AM CDT 2025
+
+
+So, we need to granulate this file:
+lib/siddur-pdf-utils/ashkenaz/ashkenaz-content-generation.ts
+
+
+We need to take a bunch of files as an input and have it be like a stanadard process
+
+The logic / file process itself should be impartial.
+
+There should be a regular part, and an upcoming holiday part.
+
+In the top there should be a section for like how it's different.
+
+This process shouldn't be all that hard/complicated. 
+
+
+
+So ...
+
+// Get list of needed JSON objects and check them. 
+
+
+// Waking Prayers
+// // Get list of always in Waking Prayers from JSON files  
+// // // Take this list and find the word mapped prayers. 
+
+// Shacharis
+
+
+// Mincha 
+
+
+// Maariv 
+
+
+
+
+
+
+// Attempt 2:
+
+// Get the necessary files and bring them in and make that work good and then get do validation after.
+
+// Build the machine and then try to validate it. 
+
+
+Start: Tue Aug 19 05:58:04 AM CDT 2025
+
+Okay, what I have to do is make it three columns. I think I will default to the three columns. 
+
+
+
+
+
+
+
+Start: Wed Aug 20 05:45:51 AM CDT 2025
+
+Getting to work on adding the transliterations. 
+
+
+
+
+
