@@ -571,15 +571,12 @@ Okay, what I have to do is make it three columns. I think I will default to the 
 
 
 
-
-
-
-
 Start: Wed Aug 20 05:45:51 AM CDT 2025
 
 Getting to work on adding the transliterations. 
 
 
+Start: Thu Aug 21 04:47:58 AM CDT 2025
 
 
 
