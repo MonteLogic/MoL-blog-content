@@ -578,5 +578,141 @@ Getting to work on adding the transliterations.
 
 Start: Thu Aug 21 04:47:58 AM CDT 2025
 
+Trying to get the third column about to divide the ashkenaz file into smaller chunks. 
+
+
+I forgot to do: 
+    "build-prayers": "node build-prayer-data.js"
+
+
+Start: Sat Aug 30 09:45:27 PM CDT 2025
+
+I add images by doing the following:
+
+Aleph Beis:
+```md
+ ![WordPress photo](/Aleph-Beis.png )
+```
+
+With that Aleph Beis photo being in the root folder of the public folder.
+
+
+
+Start: Mon Sep  1 10:52:53 AM CDT 2025
+
+Okay, so I like putting prayers into public files but my thing needs to be re-jiggered for this.
+
+
+
+... 
+Working on improving the color mapping before I make a full Siddur.
+
+
+https://github.com/MonteLogic/MySiddur/blob/7f992a80b7e3a455ce4bc3db8e0a3daf45fd4406/lib/siddur-pdf-utils/ashkenaz/siddur-formatting-config.json#L62-L63
+
+
+  "wordMappingColors": [
+      [0.8, 0.0, 0.0],
+      [0.0, 0.5, 0.0],
+      [0.0, 0.0, 0.8],
+      [0.8, 0.5, 0.0],
+      [0.5, 0.0, 0.5],
+      [0.0, 0.5, 0.5]
+    ]
+
+
+
+
+Start: 
+
+
+This needs to be a sub-prayer prayer:
+
+Birchot HaTorah (Blessings for Torah Study)
+
+
+Start: Sun Sep  7 12:13:59 AM CDT 2025
+
+
+I'm going to get started on page numbers.
+
+
+Gotta look for the area where add page is. Also I did this when I did the resume builder thing. 
+
+
+... 
+
+
+
+context.page = context.pdfDoc.addPage();
+
+
+...
+
+making a CLI to automate the process of adding prayers. 
+
+Not reu how accurate it is going to be but we have to figure out the id process and all of this, I know I have to add at least 200 plus prayers, and tangentially when the prayer db gets too large 
+
+
+
+Start: Mon Sep  8 04:53:32 AM CDT 2025
+
+I'm just going to say it can be said at Shul or at home but we're just going to put it in Waking Prayers for brevity's sake. 
+
+
+Start: Thu Sep 11 02:10:21 PM CDT 2025
+
+
+
+
+Going thru this:
+
+
+
+
+https://gemini.google.com/u/3/app/717c9891cd3b646a
+
+
+
+I think the future is going to be like a web app on the admin side which is going to have a calendar for multiple demographics men, women, kids, gentiles, etc. 
+
+And the Rabbis/Rebbenizens would be able to edit each calendar with the correct information.
+
+
+There should also be utilities to double check that the prayer order went through.
+
+
+I want to add a sections section but the sections will just have info on it and not the detailed view but may be expanded later.
+
+
+
+
+
+
+
+
+
+
+... 
+
+
+I think I'll make it, drawTwoColumnColorMappedPrayer 
+
+and this one is for Hebrew and English.
+
+Also, if the styles values says something like Hebrew and English it should be flagged as illegal. 
+
+
+
+
+
+Okay, so I need to pick and English translation.
+
+But the Hebrew will always remain the same.
+
+
+
+~                        
+
 
 
