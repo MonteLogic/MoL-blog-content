@@ -128,6 +128,63 @@ No JavaScript errors were detected during the test run.
 
 
 
+Start: 
+Sun Oct 19 09:26:14 AM CDT 2025
+
+
+What I really want to do is.... 
+
+I want to do it in Next.js but have it interop with a client side stockfish.wasm file. 
+
+
+Or use Rust instead of Next.js 
+But I have to make this work with dotnet and ASP.NET.
+
+
+.... 
+
+
+Okay, so I found out mannual placement of .wasm files isn't a thing and that the .wasm file is built with a paired .js file and these files should be built everytime so like dotnet build. 
+
+
+...  
+
+Okay, so dotnet is done for a good minute, so I am going to use Next.js + Rust to get it done and then go back to using Blazor UI.
+
+
+So the plan is to do Rust + Next.js and write those .wasm files using Rust and understand on a deep level what's in those .wasm files. 
+
+
+
+The dotnet stuff I feel like I got kind of close but I just feel like I'm going to have to use a different engine and know more about how .wasm files are instantiated. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
