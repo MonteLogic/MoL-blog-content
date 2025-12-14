@@ -1,11 +1,8 @@
 ---
 title: "Documenting: Setting Up Xdebug + VS Code for LocalWP on Linux Mint machine"
 date: "2022-08-13"
-categories: 
-  - "documenting"
-  - "not-working-on-now"
+category-slug: "work-notes"
 ---
-
 New Day: Sat 13 Aug 2022 10:35:23 AM CDT
 
 I have previously got it to work after editing the launch.json file and change the routing scheme to my LocalWP installation.

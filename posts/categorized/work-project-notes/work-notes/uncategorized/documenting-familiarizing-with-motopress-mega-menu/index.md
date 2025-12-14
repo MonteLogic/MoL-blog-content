@@ -1,11 +1,7 @@
 ---
 title: "Documenting: Familiarizing with MotoPress Mega Menu."
 date: "2022-09-21"
-categories: 
-  - "documenting"
-  - "not-working-on-now
 category-slug: "work-notes"
-"
 ---
 
 Okay, I would like to have a project where I enter a WordPress URL and then an automated tool turns it into a fully functioning website. However, the part I've noticed with the FSE is the mega menu and just menus in general.

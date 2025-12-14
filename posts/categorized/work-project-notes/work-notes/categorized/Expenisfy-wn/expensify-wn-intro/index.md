@@ -3,7 +3,7 @@ title: 'Expensify Work Notes - 1 '
 date: '2025-05-14'
 start-date: 'Thu Mar 20 2025 14:00:38 CDT'
 last-updated: 'Thu Mar 20 2025 14:00:38 CDT'
-category: 'Work/Life Notes'
+category-slug: "work-notes"
 status: 'public'
 ---
 

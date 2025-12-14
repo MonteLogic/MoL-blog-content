@@ -1,9 +1,6 @@
 ---
 title: "Documenting: Creating A Zip Code Validator for WordPress"
 date: "2022-08-22"
-categories: 
-  - "documenting"
-  - "not-working-on-now"
 category-slug: "work-notes"
 
 

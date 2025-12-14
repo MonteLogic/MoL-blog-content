@@ -1,8 +1,7 @@
 ---
 title: "Article: Mock SMS API call from Twilio locally"
 date: "2023-09-19"
-categories: 
-  - "articles"
+category-slug: "work-notes"
 ---
 
 4234243 \[\] - Send test images, but I'm pretty sure these are hosted on Twilio and then shown to you as a link URL.

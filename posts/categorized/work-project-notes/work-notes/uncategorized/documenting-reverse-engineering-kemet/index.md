@@ -1,8 +1,7 @@
 ---
 title: "Documenting: Reverse Engineering Kemet"
-date: "2022-09-22
+date: "2022-09-22"
 category-slug: "work-notes"
-"
 ---
 
 So I need to load up what the website looks like before the addition and see what was added exactly.

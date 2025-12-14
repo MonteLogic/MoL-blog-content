@@ -1,8 +1,7 @@
 ---
 title: "Documenting: Making Attribute Filter work on Category Page - Part 2"
-date: "2022-10-22
+date: "2022-10-22"
 category-slug: "work-notes"
-"
 ---
 
 In the prior post, I made the point that it would be easier to use the rendering method All Products was using and then modify it with React on re-render as it is going to need pagination. Not to mention, that there could be possible 100's of products with a certain attribute and I don't think CSS tricks are going to cut it.

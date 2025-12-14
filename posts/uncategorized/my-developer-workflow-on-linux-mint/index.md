@@ -1,8 +1,7 @@
 ---
 title: "My Developer Workflow on Linux Mint"
 date: "2022-08-09"
-categories: 
-  - "working-on"
+category-slug: "work-notes"
 ---
 
 I'm currently working with BASH files to automate the process that I'm in and appears that I have to source the file to do anything meaningful.

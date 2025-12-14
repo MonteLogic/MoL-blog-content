@@ -1,8 +1,7 @@
 ---
 title: 'Work Notes: Using Plaid API for importing Banking transactions'
 date: '2023-08-24'
-categories:
-  - 'tutorial'
+category-slug: "work-notes"
 status: 'public'
 ---
 

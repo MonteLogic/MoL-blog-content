@@ -1,8 +1,7 @@
 ---
 title: "Work Log: Using WC Blocks Slot Fills for Shipping Information - Part 3"
 date: "2023-02-06"
-categories: 
-  - "work-log"
+category-slug: "work-notes"
 ---
 
 What I am working on in this article:

@@ -1,8 +1,7 @@
 ---
 title: "Setting Up Turso with Next.js and Prisma"
 date: "2024-08-21"
-categories: 
-  - "tutorial"
+category-slug: "work-notes"
 coverImage: "nextprisma-thumbnail-1.png"
 status: "public"
 ---

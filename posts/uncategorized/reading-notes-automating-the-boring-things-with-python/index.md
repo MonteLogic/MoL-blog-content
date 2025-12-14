@@ -1,8 +1,7 @@
 ---
 title: "Reading Notes: automating the boring things with Python"
 date: "2022-08-10"
-categories: 
-  - "reading-notes"
+category-slug: "work-notes"
 ---
 
 chapter 9 has piqued my interest.

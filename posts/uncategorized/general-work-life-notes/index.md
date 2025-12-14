@@ -2,7 +2,7 @@
 title: 'General Work Life Notes - 1'
 start-date: 'Thu Mar 20 2025 14:00:38 CDT'
 last-updated: 'Thu Mar 20 2025 14:00:38 CDT'
-category: 'Work/Life Notes'
+category-slug: "work-notes"
 status: "private" 
 
 ---

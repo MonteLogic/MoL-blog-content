@@ -1,8 +1,7 @@
 ---
 title: "WooCommerce-Blocks Documentation: Checkout"
 date: "2022-09-29"
-categories: 
-  - "documentation"
+category-slug: "work-notes"
 ---
 
 **useCheckoutAddress**: This is a hook found in [use-checkout-address.ts](https://github.com/woocommerce/woocommerce-blocks/blob/trunk/assets/js/base/context/hooks/use-checkout-address.ts) this hook is found in various files of [checkout-shipping-methods-block](https://github.com/woocommerce/woocommerce-blocks/tree/trunk/assets/js/blocks/checkout/inner-blocks/checkout-shipping-methods-block) folder. I beleive the value within it is used to hide the billing field. Found as a reliant boolean in this [file](https://github.com/woocommerce/woocommerce-blocks/blob/trunk/assets/js/blocks/checkout/inner-blocks/checkout-shipping-address-block/frontend.tsx).

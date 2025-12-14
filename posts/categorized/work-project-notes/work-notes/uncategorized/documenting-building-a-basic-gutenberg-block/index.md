@@ -1,12 +1,7 @@
 ---
 title: "Documenting: Building a Basic Gutenberg Block"
 date: "2022-09-12"
-categories: 
-  - "concluded"
-  - "documenting"
-  - "not-working-on-now"
 category-slug: "work-notes"
-
 ---
 
 **New Day:** Fri 09 Sep 2022 10:14:52 AM CDT

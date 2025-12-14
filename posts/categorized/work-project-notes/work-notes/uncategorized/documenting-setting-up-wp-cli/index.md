@@ -1,8 +1,7 @@
 ---
 title: "Documenting: Setting Up and using WP CLI on LocalWP"
 date: "2022-08-11"
-categories: 
-  - "documenting"
+category-slug: "work-notes"
 ---
 
 TL;DR I didn't have to do much work because LocalWP ships with WP CLI just click 'Open site shell'

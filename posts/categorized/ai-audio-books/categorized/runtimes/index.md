@@ -3,7 +3,7 @@ title: 'Current Style of Generating PDFs for CBud- 1 '
 date: '2025-05-19'
 start-date: 'Thu May 15 2025 17:34:15 CDT'
 last-updated: 'Sun May 18 2025 15:02:31 CDT'
-category: 'Work/Life Notes'
+category-slug: "work-notes"
 status: 'public'
 ---
 

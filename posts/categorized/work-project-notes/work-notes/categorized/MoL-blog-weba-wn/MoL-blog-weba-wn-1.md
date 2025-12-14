@@ -3,9 +3,7 @@ title: 'MoL Blog Web App Work Notes - 1'
 lastUpdated: 'May 10 2025 20:48'
 date: '2025-05-10'
 status: 'public'
-categories:
-  - 'documenting'
-  - 'currently-working-on'
+category-slug: "work-notes"
 niceId: 'post-01'
 ---
 

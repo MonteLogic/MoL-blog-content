@@ -1,11 +1,7 @@
 ---
 title: "Documenting: My Developer Workflow Setup on Linux Mint"
 date: "2022-08-09"
-categories: 
-  - "documenting"
-  - "working-on
 category-slug: "work-notes"
-"
 ---
 
 About my workflow:
