@@ -4,6 +4,8 @@ date: "2022-08-23"
 categories: 
   - "documenting"
   - "working-on"
+category-slug: "work-notes"
+
 ---
 
 **New Day:** Tue 23 Aug 2022 06:19:42 PM CDT

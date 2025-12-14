@@ -2,7 +2,9 @@
 title: "Documenting: Paths to LocalWP assets on Linux Mint"
 date: "2022-08-14"
 categories: 
-  - "documenting"
+  - "documenting
+category-slug: "work-notes"
+"
 ---
 
 New Day: Sat 13 Aug 2022 07:01:24 PM CDT

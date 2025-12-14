@@ -3,7 +3,9 @@ title: "Documenting: Researching Rebuilding Large Bloated Websites"
 date: "2022-08-15"
 categories: 
   - "documenting"
-  - "not-working-on-now"
+  - "not-working-on-now
+category-slug: "work-notes"
+"
 ---
 
 New Day: Mon 15 Aug 2022 02:17:38 PM CDT

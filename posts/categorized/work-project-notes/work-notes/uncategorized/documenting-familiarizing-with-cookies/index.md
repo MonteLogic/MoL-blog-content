@@ -3,7 +3,9 @@ title: "Documenting: Familiarizing with Cookies"
 date: "2022-08-19"
 categories: 
   - "documenting"
-  - "not-working-on-now"
+  - "not-working-on-now
+category-slug: "work-notes"
+"
 ---
 
 **New Day:** Thu 18 Aug 2022 10:15:05 PM CDT

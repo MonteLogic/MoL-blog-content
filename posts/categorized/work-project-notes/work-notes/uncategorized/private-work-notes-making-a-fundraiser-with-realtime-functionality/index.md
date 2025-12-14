@@ -2,7 +2,6 @@
 title: "Private Work Notes: Making a Fundraiser with realtime functionality - Part 1"
 date: "2023-04-03"
 categories: 
-  - "private"
   - "work-notes"
 ---
 

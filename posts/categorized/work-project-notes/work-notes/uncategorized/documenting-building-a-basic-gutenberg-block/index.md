@@ -5,6 +5,8 @@ categories:
   - "concluded"
   - "documenting"
   - "not-working-on-now"
+category-slug: "work-notes"
+
 ---
 
 **New Day:** Fri 09 Sep 2022 10:14:52 AM CDT

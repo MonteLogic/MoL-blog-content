@@ -2,7 +2,9 @@
 title: "Documenting: Setting up Vdebug on LocalWP"
 date: "2022-08-07"
 categories: 
-  - "documenting"
+  - "documenting
+category-slug: "work-notes"
+"
 ---
 
 TL;DR I couldn't figure it out mainly because Linux, Vim and LocalWP seem to be a combination which isn't officially supported.

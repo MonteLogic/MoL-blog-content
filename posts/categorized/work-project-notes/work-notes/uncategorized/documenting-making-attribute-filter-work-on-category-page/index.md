@@ -1,6 +1,8 @@
 ---
 title: "Documenting: Making Attribute Filter work on Category Page - Part 1"
-date: "2022-10-18"
+date: "2022-10-18
+category-slug: "work-notes"
+"
 ---
 
 This [video](https://www.youtube.com/watch?v=Ys0uPYjUo3s&t=416s&ab_channel=JamieMarsland) is useful for editing the category page.

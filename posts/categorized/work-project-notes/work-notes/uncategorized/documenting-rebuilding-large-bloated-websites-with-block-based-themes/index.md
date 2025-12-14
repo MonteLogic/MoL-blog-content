@@ -3,7 +3,9 @@ title: "Documenting: Creating a Block Based Theme for a Large Website - Part 1"
 date: "2022-08-18"
 categories: 
   - "documenting"
-  - "ending-for-now"
+  - "ending-for-now
+category-slug: "work-notes"
+"
 ---
 
 **New Day:** Thu 18 Aug 2022 02:03:46 PM CDT
