@@ -1,4 +1,5 @@
 {
     "project":"EasyAngularApp",
-    "description": "A WordPress plugin meant to easily host Angular Apps."
+    "description": "A WordPress plugin meant to easily host Angular Apps.",
+    "note": "The main development is being done in EasyReactApp."
 }
