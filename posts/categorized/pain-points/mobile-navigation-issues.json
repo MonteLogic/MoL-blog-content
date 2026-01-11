@@ -1,0 +1,12 @@
+{
+    "title": "Mobile Navigation Issues",
+    "description": "The mobile navigation menu doesn't collapse properly on some devices, causing overlap with content.",
+    "severity": "high",
+    "status": "open",
+    "createdAt": "2026-01-07",
+    "tags": [
+        "mobile",
+        "ux",
+        "navigation"
+    ]
+}

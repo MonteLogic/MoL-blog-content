@@ -1,0 +1,12 @@
+{
+    "title": "Example Pain Point - Slow Page Load",
+    "description": "Users experience slow page load times on the blog listing page when there are many posts. This affects user experience and may increase bounce rates.",
+    "severity": "medium",
+    "status": "open",
+    "createdAt": "2026-01-08",
+    "tags": [
+        "performance",
+        "ux",
+        "blog"
+    ]
+}
