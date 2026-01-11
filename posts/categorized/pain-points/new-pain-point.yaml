@@ -1,0 +1,26 @@
+# Pain Point Title - be descriptive
+title: "I cannot watch multiple local video streams in the same app"
+
+# Pain Point Description
+# What is the Pain Point in detail?
+how does it inconvience you: "I have to get multiple apps just to watch videos and the videos restart."
+
+what have you done as a workaround: "I have downloaded multiple apps and a lot of them are full of ads and buggy."
+
+how does this pain point limit what you want to do: "I am limited to watching only one VR Video at a time bcuz the only VR Video player out there can only watch one video at a time."  
+
+
+# Pain Point personal affect. 
+on a scale of 1 - 10 how badly would you want the solution to your paint point: '6'
+
+# Progress on pain Point, 0 - 10
+how much progress have the tech you or someone you're working has gone to fixing the pain point: 0
+
+# Date this pain point was identified
+createdAt: "2026-01-11"
+
+# Tags for categorization (e.g., ux, performance, bug, feature-request)
+tags:
+  - ux 
+  - vr 
+  - Unity
