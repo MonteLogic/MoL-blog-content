@@ -1,0 +1,4 @@
+date: "2026-01-17"
+description: "I am going to use TanStack for the Chess page to monitor the board in a better way, I am also going to go to Next.js 16+ so I can get better WASM integration."
+progress: 1 # Add/Subtract progress (e.g. +2 or -1). Leave 0 for no change.
+demand: 0 # Add/Subtract demand (e.g. +2 or -1). Leave 0 for no change.
