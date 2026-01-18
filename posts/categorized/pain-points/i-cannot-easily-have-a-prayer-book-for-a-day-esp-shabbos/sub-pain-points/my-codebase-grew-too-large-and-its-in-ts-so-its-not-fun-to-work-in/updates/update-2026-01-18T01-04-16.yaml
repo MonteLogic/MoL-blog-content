@@ -1,0 +1,7 @@
+date: 2026-01-18
+description: "I wanted to switch to Rust but the issue is really the coverage of
+  all the issues and Rust wouldn't be the fix, maybe GoLang would but just stick
+  to .ts and just refactoring it. Also going to setup sentry.io so I can fix the
+  edge cases where it's not working and/or bugging out. "
+progress: 1
+demand: 0
