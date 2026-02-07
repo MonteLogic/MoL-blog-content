@@ -9,3 +9,4 @@ status: public
 ---
 
 ## Getting bearings
+I'm unsure how to even prototype this, so lets get an answer from Gemini. 
