@@ -10,3 +10,7 @@ status: public
 
 ## Getting bearings
 I'm unsure how to even prototype this, so lets get an answer from Gemini. 
+
+## Henceforth
+I feel like I should make that WorldLabs walk throuugh thing and then import it to like a 3D engine (which is Rust or GoLang based) but is very performant. 
+
