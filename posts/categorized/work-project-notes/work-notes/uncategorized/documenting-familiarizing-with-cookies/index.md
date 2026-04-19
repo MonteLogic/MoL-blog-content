@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Familiarizing with Cookies"
-date: "2022-08-19"
-category-slug: "work-notes"
+title: 'Documenting: Familiarizing with Cookies'
+date: '2022-08-19'
+category-slug: work-notes
+status: public
 ---
 
 **New Day:** Thu 18 Aug 2022 10:15:05 PM CDT

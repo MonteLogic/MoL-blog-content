@@ -1,7 +1,8 @@
 ---
-title: "Work Notes: EC Refactor 2 - Part 1"
-date: "2023-03-05"
-category-slug: "work-notes"
+title: 'Work Notes: EC Refactor 2 - Part 1'
+date: '2023-03-05'
+category-slug: work-notes
+status: public
 ---
 
 toDo:

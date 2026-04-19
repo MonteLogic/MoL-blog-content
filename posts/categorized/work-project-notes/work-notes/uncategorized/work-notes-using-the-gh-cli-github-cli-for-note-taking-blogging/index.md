@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Using the gh cli (GitHub CLI) for note taking/blogging."
-date: "2023-12-18"
+title: 'Work Notes: Using the gh cli (GitHub CLI) for note taking/blogging.'
+date: '2023-12-18'
+status: public
 ---
 
 Creating a gist is simple: gh gist create.

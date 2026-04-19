@@ -1,6 +1,7 @@
 ---
-title: "Using GitHub as a headless CMS for your Next.js Blog."
-date: "2025-02-16"
+title: Using GitHub as a headless CMS for your Next.js Blog.
+date: '2025-02-16'
+status: public
 ---
 
 Learning Objectives:

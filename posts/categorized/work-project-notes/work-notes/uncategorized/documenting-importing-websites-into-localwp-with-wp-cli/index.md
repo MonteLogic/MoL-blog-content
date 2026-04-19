@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Importing Websites into LocalWP with WP CLI"
-date: "2022-08-11"
-category-slug: "work-notes"
+title: 'Documenting: Importing Websites into LocalWP with WP CLI'
+date: '2022-08-11'
+category-slug: work-notes
+status: public
 ---
 
 The process of importing things with LocalWP is the fact that you have to have the .sql file and wp-content folder of a website in the same folder, zip it and then drop it into LocalWP.

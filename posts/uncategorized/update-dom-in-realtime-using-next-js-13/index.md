@@ -1,6 +1,7 @@
 ---
-title: "Update DOM in Realtime using Next.js 13"
-date: "2024-06-20"
+title: Update DOM in Realtime using Next.js 13
+date: '2024-06-20'
+status: public
 ---
 
 I have this issue on my Next.js app where I have two segregated components:

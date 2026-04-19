@@ -1,6 +1,7 @@
 ---
-title: "Next.js Checklist:"
-date: "2024-11-24"
+title: 'Next.js Checklist:'
+date: '2024-11-24'
+status: public
 ---
 
 Next.js Setup:

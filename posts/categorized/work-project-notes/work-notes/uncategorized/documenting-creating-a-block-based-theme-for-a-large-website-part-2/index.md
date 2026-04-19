@@ -1,11 +1,11 @@
 ---
-title: "Documenting: Creating a Block Based Theme for a Large Website - Part 2"
-date: "2022-10-03"
-categories: 
-  - "documenting"
-  - "working-on"
-category-slug: "work-notes"
-
+title: 'Documenting: Creating a Block Based Theme for a Large Website - Part 2'
+date: '2022-10-03'
+categories:
+  - documenting
+  - working-on
+category-slug: work-notes
+status: public
 ---
 
 Gotta work on the menu and then make the menu like my own, my own plugin. So we went on to worry about that technique. That's working the menu tab it like the z index. Not avoid to make the z index, not in filters. I also have to change the slash and every single one need to that.

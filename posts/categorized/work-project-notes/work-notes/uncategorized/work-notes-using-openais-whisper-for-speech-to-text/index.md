@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Using OpenAI's Whisper for Speech to Text"
-date: "2022-12-24"
+title: 'Work Notes: Using OpenAI''s Whisper for Speech to Text'
+date: '2022-12-24'
+status: public
 ---
 
 I am tried of being on Mint Linux and having poor speech to text capability so I am going to make a web app and host it on this site.

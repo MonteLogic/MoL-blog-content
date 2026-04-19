@@ -1,6 +1,7 @@
 ---
-title: "Work notes: Building a 'Barebones' theme for better cURL output"
-date: "2023-03-27"
+title: 'Work notes: Building a ''Barebones'' theme for better cURL output'
+date: '2023-03-27'
+status: public
 ---
 
 I had this problem in [another post](https://montelogic.com/?p=2959):

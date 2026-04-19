@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Creating a Block Based Theme for a Large Website - Part 1"
-date: "2022-08-18"
-category-slug: "work-notes"
+title: 'Documenting: Creating a Block Based Theme for a Large Website - Part 1'
+date: '2022-08-18'
+category-slug: work-notes
+status: public
 ---
 
 **New Day:** Thu 18 Aug 2022 02:03:46 PM CDT

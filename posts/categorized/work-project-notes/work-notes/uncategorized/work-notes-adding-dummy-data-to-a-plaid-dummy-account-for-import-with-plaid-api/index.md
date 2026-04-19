@@ -1,6 +1,9 @@
 ---
-title: "Work Notes: Adding Dummy data to a Plaid Dummy account for import with Plaid API"
-date: "2023-09-03"
+title: >-
+  Work Notes: Adding Dummy data to a Plaid Dummy account for import with Plaid
+  API
+date: '2023-09-03'
+status: public
 ---
 
 "

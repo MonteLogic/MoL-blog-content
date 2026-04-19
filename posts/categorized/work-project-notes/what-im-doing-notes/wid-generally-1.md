@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 ---
 title: "What I'm Doing Notes"

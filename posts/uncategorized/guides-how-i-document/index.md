@@ -1,7 +1,8 @@
 ---
-title: "Guides: How I Document"
-date: "2022-08-31"
-category-slug: "work-notes"
+title: 'Guides: How I Document'
+date: '2022-08-31'
+category-slug: work-notes
+status: public
 ---
 
 Whenever I am searching and I cannot find the answer I am looking for, I then that same query into my Documenting article. Such as "Make Menu full-width with Full Site Editing". I then go through the process of documenting me doing that.

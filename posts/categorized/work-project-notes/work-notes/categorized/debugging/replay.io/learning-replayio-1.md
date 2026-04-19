@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Am going to use Replay.io to help with reproducing this error:
 

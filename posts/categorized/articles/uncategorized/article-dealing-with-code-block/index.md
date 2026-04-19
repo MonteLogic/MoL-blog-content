@@ -1,6 +1,7 @@
 ---
-title: "Article: Dealing with code block"
-date: "2022-12-11"
+title: 'Article: Dealing with code block'
+date: '2022-12-11'
+status: public
 ---
 
 Whenever. You have like a day where you want to have off, or you have just like a day where you're not feeling it. It might just be code block. And then whenever I have code block, I drink some beer, then my code block goes away, and then I'm mysteriously fix all my problems with the code. I don't know why beer helps so much.

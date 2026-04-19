@@ -1,6 +1,7 @@
 ---
-title: "Work Log: Using WC Blocks Slot Fills for Shipping Information - Part 1"
-date: "2022-11-21"
+title: 'Work Log: Using WC Blocks Slot Fills for Shipping Information - Part 1'
+date: '2022-11-21'
+status: public
 ---
 
 This project is contingent upon being able to have the information being added into the REST API post which creates the $order object. If I can get it there then it'll be sent to the admin part of WordPress which will then be able to be viewed by the client.

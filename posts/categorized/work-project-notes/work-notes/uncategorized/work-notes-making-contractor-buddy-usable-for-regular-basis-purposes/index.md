@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Making Contractor Bud usable for regular basis purposes"
-date: "2023-09-18"
+title: 'Work Notes: Making Contractor Bud usable for regular basis purposes'
+date: '2023-09-18'
+status: public
 ---
 
 toDo:

@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 
 What I found to work best is to get the demo project running good and then just

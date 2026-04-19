@@ -1,6 +1,7 @@
 ---
-title: "Article: How I Understand A Certain Part of A Large Codebase."
-date: "2023-01-05"
+title: 'Article: How I Understand A Certain Part of A Large Codebase.'
+date: '2023-01-05'
+status: public
 ---
 
 Goal: Explain to the user how I search through a large codebase so I can better implement a functionality.

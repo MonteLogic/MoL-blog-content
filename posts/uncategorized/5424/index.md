@@ -1,6 +1,7 @@
 ---
-title: "Some ways to document progress"
-date: "2024-11-03"
+title: Some ways to document progress
+date: '2024-11-03'
+status: public
 ---
 
 Some ways to document progress

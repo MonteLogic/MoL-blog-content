@@ -1,6 +1,7 @@
 ---
-title: "Q3 - Tid Bits"
-date: "2024-06-06"
+title: Q3 - Tid Bits
+date: '2024-06-06'
+status: public
 ---
 
 ![](images/tidi-bit-Screenshot-2024-06-06-at-16-35-12-Use-Clerk-with-Next.js-Clerk-1024x503.png)

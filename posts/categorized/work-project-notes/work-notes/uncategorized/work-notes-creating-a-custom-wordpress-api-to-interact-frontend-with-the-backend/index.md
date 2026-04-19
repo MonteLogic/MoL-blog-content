@@ -1,6 +1,9 @@
 ---
-title: "Work Notes: Creating a custom WordPress API to interact frontend with the backend."
-date: "2023-02-21"
+title: >-
+  Work Notes: Creating a custom WordPress API to interact frontend with the
+  backend.
+date: '2023-02-21'
+status: public
 ---
 
 I would like to make a control panel of what components to render on the frontend but I can't get the attributes on the frontend with the ease I would like.

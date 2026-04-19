@@ -1,7 +1,8 @@
 ---
-title: "Documentation: Woocommerce-Blocks Filters Blocks"
-date: "2022-10-09"
-category-slug: "work-notes"
+title: 'Documentation: Woocommerce-Blocks Filters Blocks'
+date: '2022-10-09'
+category-slug: work-notes
+status: public
 ---
 
 **useCollection:** Appears to be a base hook. Which appears to be coming from [this file](http://assets/js/base/context/hooks/collections/use-collection.ts). Described as a hook for wiring up a component to a collection route. "Queries are performed using useCollection hooks"

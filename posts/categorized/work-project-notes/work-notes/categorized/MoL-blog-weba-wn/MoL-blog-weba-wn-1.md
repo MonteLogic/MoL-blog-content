@@ -5,6 +5,7 @@ date: '2025-05-10'
 status: 'public'
 category-slug: "work-notes"
 niceId: 'post-01'
+tags: ["Work Notes"]
 ---
 
 # MoL-blog-weba-wn-1

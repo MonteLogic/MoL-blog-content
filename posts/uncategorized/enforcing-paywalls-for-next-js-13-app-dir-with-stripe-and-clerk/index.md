@@ -1,6 +1,7 @@
 ---
-title: "Enforcing paywalls for next.js 13+ (app dir) with  Stripe and Clerk."
-date: "2025-01-17"
+title: Enforcing paywalls for next.js 13+ (app dir) with  Stripe and Clerk.
+date: '2025-01-17'
+status: public
 ---
 
 #### In order to have a good paywall we NEED to:

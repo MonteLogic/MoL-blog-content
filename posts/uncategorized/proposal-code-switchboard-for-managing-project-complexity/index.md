@@ -1,6 +1,7 @@
 ---
-title: "Proposal: 'Code Switchboard' for managing project complexity"
-date: "2025-02-23"
+title: 'Proposal: ''Code Switchboard'' for managing project complexity'
+date: '2025-02-23'
+status: public
 ---
 
 Ideally it would be like a video game look of say a game like Mass Effect where you go through each solar system selection, this UI but instead you are going though project complexity viz. each node will show the possible permutations.

@@ -1,6 +1,7 @@
 ---
-title: "What I learned this week - 04-01 to 04-05"
-date: "2024-04-05"
+title: What I learned this week - 04-01 to 04-05
+date: '2024-04-05'
+status: public
 ---
 
 When working with a new domain in Vercel, use a different project rather than messing around with CNAMES.

@@ -1,6 +1,7 @@
 ---
-title: "Guide: How I structure my WP Gutenberg & WC Blocks project"
-date: "2023-04-10"
+title: 'Guide: How I structure my WP Gutenberg & WC Blocks project'
+date: '2023-04-10'
+status: public
 ---
 
 The build process is reliant upon the editorScript param within the block.json

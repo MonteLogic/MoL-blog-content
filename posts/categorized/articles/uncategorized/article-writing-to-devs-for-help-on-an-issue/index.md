@@ -1,6 +1,7 @@
 ---
-title: "Article: Writing to Devs for Help on an issue."
-date: "2023-02-04"
+title: 'Article: Writing to Devs for Help on an issue.'
+date: '2023-02-04'
+status: public
 ---
 
 I am trying to contribute to this project and I got all of the Twitter handles and some the emails of people who contributes often and I wrote to them and I only heard back from one person and they told me to make an create an issue on the repo.

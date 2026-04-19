@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 
 It's like a really good skill to make simple solutions which JUST GET THE JOB done instead of making some 'future' complicated, troubleshooted solution.

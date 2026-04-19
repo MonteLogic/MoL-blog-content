@@ -1,6 +1,7 @@
 ---
-title: "List of Questions: Extra Study Guide test for CDL Illinois"
-date: "2023-08-09"
+title: 'List of Questions: Extra Study Guide test for CDL Illinois'
+date: '2023-08-09'
+status: public
 ---
 
 Reference pdf, [here](https://www.ilsos.gov/publications/pdf_publications/dsd_cdl10.pdf).

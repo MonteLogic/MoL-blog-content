@@ -1,6 +1,7 @@
 ---
-title: "WordPress is just for blogging"
-date: "2023-10-16"
+title: WordPress is just for blogging
+date: '2023-10-16'
+status: public
 ---
 
 WordPress has shown us time and time again that it's just too dated and too bulky to offer SaaS product implementation. Even for WooCommerce there is just too much of a headache and I would recommend Shopify over WooCommerce due to the fact that Shopify is just less buggy.

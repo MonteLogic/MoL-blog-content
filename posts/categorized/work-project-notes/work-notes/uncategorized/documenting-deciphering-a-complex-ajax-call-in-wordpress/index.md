@@ -1,11 +1,11 @@
 ---
-title: "Documenting: Deciphering A Complex Ajax Call in WordPress"
-date: "2022-08-23"
-categories: 
-  - "documenting"
-  - "working-on"
-category-slug: "work-notes"
-
+title: 'Documenting: Deciphering A Complex Ajax Call in WordPress'
+date: '2022-08-23'
+categories:
+  - documenting
+  - working-on
+category-slug: work-notes
+status: public
 ---
 
 **New Day:** Tue 23 Aug 2022 06:19:42 PM CDT

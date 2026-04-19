@@ -1,3 +1,6 @@
+---
+status: public
+---
 Okay, 
 
 What I would like to do is have a gummy which reduces stress which I would take during half of the day. 

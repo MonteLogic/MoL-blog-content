@@ -1,6 +1,7 @@
 ---
-title: "Resources For Getting from Intermediate to Master level Dev"
-date: "2024-07-11"
+title: Resources For Getting from Intermediate to Master level Dev
+date: '2024-07-11'
+status: public
 ---
 
 Ryan Welcher's stream - Great in PHP as well as WordPress, including Gutenberg development which is rising in popularity. Every Thursday on Twitch.

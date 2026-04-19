@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Extended Checkout - Part 3"
-date: "2023-05-02"
+title: 'Work Notes: Extended Checkout - Part 3'
+date: '2023-05-02'
+status: public
 ---
 
 \[ \] 905afg- Check EC refactor with the latest dev versions of EC to check for errors.

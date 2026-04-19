@@ -1,6 +1,11 @@
 ---
-title: "Article: How The Redux Store is used for dispatching Actions in WC Blocks."
-date: "2023-01-17"
+title: 'Article: How The Redux Store is used for dispatching Actions in WC Blocks.'
+date: '2023-01-17'
+tags:
+  - Redux
+  - WooCommerce Blocks
+  - JavaScript
+status: public
 ---
 
 Code flow for updating value via Redux:

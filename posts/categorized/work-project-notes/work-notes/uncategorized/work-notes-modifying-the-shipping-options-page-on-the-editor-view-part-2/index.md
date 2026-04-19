@@ -1,8 +1,9 @@
 ---
-title: "Work Notes: Modifying the Shipping Options page on the editor view. - Part 2"
-date: "2023-01-11"
-categories: 
-  - "work-notes"
+title: 'Work Notes: Modifying the Shipping Options page on the editor view. - Part 2'
+date: '2023-01-11'
+categories:
+  - work-notes
+status: public
 ---
 
 **The goal:** To have it so the Local pickup option is selected then the Shipping Fields will be replaced with a message which says the order will be delivered to the store's HQ. This is going on to be the frontend as well as the edit page. While on the edit page the user will be able to edit the message of where the Local pickup is at.

@@ -1,6 +1,7 @@
 ---
-title: "Learning Journal: 2024"
-date: "2024-11-22"
+title: 'Learning Journal: 2024'
+date: '2024-11-22'
+status: public
 ---
 
 I learned that SQLite is good--if it's with LibSQL.

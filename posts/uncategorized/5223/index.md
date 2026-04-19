@@ -1,6 +1,7 @@
 ---
-title: "What needs to change in WordPress to make it a 2024 competitive stack."
-date: "2024-07-27"
+title: What needs to change in WordPress to make it a 2024 competitive stack.
+date: '2024-07-27'
+status: public
 ---
 
 What needs to change in WordPress to make it a 2024 competive stack.

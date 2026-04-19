@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 # App for listening to LLMs
 It would be great if there was a app which you could pipe really good Gemini / great LLM answers into a app which runs it as a Podcast, really good mixing, etc. 

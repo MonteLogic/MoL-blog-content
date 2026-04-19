@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Replacing LocalWP with wp-env on Linux Mint"
-date: "2022-08-16"
-category-slug: "work-notes"
+title: 'Documenting: Replacing LocalWP with wp-env on Linux Mint'
+date: '2022-08-16'
+category-slug: work-notes
+status: public
 ---
 
 New Day: Tue 16 Aug 2022 09:37:22 AM CDT

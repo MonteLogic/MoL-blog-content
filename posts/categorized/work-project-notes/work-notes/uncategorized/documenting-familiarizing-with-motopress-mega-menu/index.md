@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Familiarizing with MotoPress Mega Menu."
-date: "2022-09-21"
-category-slug: "work-notes"
+title: 'Documenting: Familiarizing with MotoPress Mega Menu.'
+date: '2022-09-21'
+category-slug: work-notes
+status: public
 ---
 
 Okay, I would like to have a project where I enter a WordPress URL and then an automated tool turns it into a fully functioning website. However, the part I've noticed with the FSE is the mega menu and just menus in general.

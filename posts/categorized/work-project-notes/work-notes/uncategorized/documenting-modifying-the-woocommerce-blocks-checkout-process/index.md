@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Modifying The WooCommerce-Blocks checkout process. Part 1"
-date: "2022-09-27"
-category-slug: "work-notes"
+title: 'Documenting: Modifying The WooCommerce-Blocks checkout process. Part 1'
+date: '2022-09-27'
+category-slug: work-notes
+status: public
 ---
 
 Okay. So what I want to do is I want to modify to check out to have it so like the the billing things already always on.

@@ -1,6 +1,7 @@
 ---
-title: "Work Log: Using WC Blocks Slot Fills for Shipping Information - Part 2"
-date: "2022-12-19"
+title: 'Work Log: Using WC Blocks Slot Fills for Shipping Information - Part 2'
+date: '2022-12-19'
+status: public
 ---
 
 Summary:

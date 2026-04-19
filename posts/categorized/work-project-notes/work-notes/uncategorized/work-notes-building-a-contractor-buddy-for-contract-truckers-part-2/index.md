@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Building a Contractor Buddy for Contract Truckers - Part 2"
-date: "2023-06-18"
+title: 'Work Notes: Building a Contractor Buddy for Contract Truckers - Part 2'
+date: '2023-06-18'
+status: public
 ---
 
 \[-\] **528x5** - Mock the REST api post call for Twilio, this will save money and time.

@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: EC Refactor 2 - Part 2"
-date: "2023-03-19"
+title: 'Work Notes: EC Refactor 2 - Part 2'
+date: '2023-03-19'
+status: public
 ---
 
 - Get Local Storage saving logic to be just as smooth as if it were Redux. -t0L08

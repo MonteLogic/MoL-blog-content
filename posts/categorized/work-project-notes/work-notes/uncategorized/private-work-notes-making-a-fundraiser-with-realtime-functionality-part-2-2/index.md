@@ -1,6 +1,7 @@
 ---
-title: "Private Work Notes: Making a Fundraiser with realtime functionality - Part 3"
-date: "2023-04-22"
+title: 'Private Work Notes: Making a Fundraiser with realtime functionality - Part 3'
+date: '2023-04-22'
+status: public
 ---
 
 \[x \] I may be able to query that PHP statement and allocate to an array it'll be get underscore users using a PHP thing and that will save me the hassle of having to create a mirror API.

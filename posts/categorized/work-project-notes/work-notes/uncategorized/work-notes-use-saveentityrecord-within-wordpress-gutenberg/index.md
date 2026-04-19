@@ -1,6 +1,9 @@
 ---
-title: "Article: Don't use saveEntityRecord for saving user meta within WordPress Gutenberg"
-date: "2023-04-15"
+title: >-
+  Article: Don't use saveEntityRecord for saving user meta within WordPress
+  Gutenberg
+date: '2023-04-15'
+status: public
 ---
 
 I am trying to get something like this working:

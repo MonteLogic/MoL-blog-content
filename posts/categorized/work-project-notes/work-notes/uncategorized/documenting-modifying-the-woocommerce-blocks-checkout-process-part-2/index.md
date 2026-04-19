@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Modifying The WooCommerce-Blocks checkout process. Part 2"
-date: "2022-10-31"
-category-slug: "work-notes"
+title: 'Documenting: Modifying The WooCommerce-Blocks checkout process. Part 2'
+date: '2022-10-31'
+category-slug: work-notes
+status: public
 ---
 
 For the checkout process I am trying to figure out where the shipping information is held locally.

@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Using local storage to share state between Gutenberg Blocks."
-date: "2023-03-05"
+title: 'Work Notes: Using local storage to share state between Gutenberg Blocks.'
+date: '2023-03-05'
+status: public
 ---
 
 I managed to have it work but it's not updating from the original value unless I delete the Local Storage value. I still need to get it working where a useEffect can change the value within Local Storage.

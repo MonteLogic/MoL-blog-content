@@ -1,6 +1,7 @@
 ---
-title: "My VIM Commands"
-date: "2024-10-27"
+title: My VIM Commands
+date: '2024-10-27'
+status: public
 ---
 
 :r !date 

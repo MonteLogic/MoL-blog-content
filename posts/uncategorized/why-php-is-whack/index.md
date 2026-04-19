@@ -1,6 +1,7 @@
 ---
-title: "Why PHP is whack."
-date: "2024-07-25"
+title: Why PHP is whack.
+date: '2024-07-25'
+status: public
 ---
 
 The comments I will make will be met with things like oh, you can do x, y or z to remedy the situation within the tech stack. But out of the box this is the way it is.

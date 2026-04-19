@@ -1,6 +1,9 @@
 ---
-title: "cbud.app - PDF Creation with PDF-Lib ; Creating Tests; Systematizing a Prisma PDF - Thu 13 Jun 2024 -Mon 15 Jul 2024"
-date: "2024-07-16"
+title: >-
+  cbud.app - PDF Creation with PDF-Lib ; Creating Tests; Systematizing a Prisma
+  PDF - Thu 13 Jun 2024 -Mon 15 Jul 2024
+date: '2024-07-16'
+status: public
 ---
 
 #### Contractor Buddy Work Notes – Part 5

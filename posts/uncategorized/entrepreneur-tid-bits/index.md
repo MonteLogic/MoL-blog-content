@@ -1,6 +1,7 @@
 ---
-title: "Entrepreneur Tid Bits"
-date: "2023-09-18"
+title: Entrepreneur Tid Bits
+date: '2023-09-18'
+status: public
 ---
 
 I feel like when you start a enterprise or a project

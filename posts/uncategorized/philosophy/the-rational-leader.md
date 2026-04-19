@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Okay, the era for trusting a person's ability to act in a rational manner by examining their academic background is over with.
 

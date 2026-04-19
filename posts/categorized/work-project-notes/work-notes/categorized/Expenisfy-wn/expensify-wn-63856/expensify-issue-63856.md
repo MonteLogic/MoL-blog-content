@@ -1,3 +1,6 @@
+---
+status: public
+---
 # Issue 63856
 
 https://github.com/Expensify/App/issues/63856#issuecomment-2959585278

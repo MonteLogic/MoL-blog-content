@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 This is the best date command:
 

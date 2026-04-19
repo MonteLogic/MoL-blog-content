@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 I'm currently 1,600 USD in debt to my College, my plan is to get enough money to get out of debt and then re-enroll in that college to get my CDL and then get oil endorsements and then go back out into the oil field.
 

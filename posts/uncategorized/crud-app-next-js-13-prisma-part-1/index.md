@@ -1,6 +1,7 @@
 ---
-title: "CRUD App Next.js 13, Prisma - Part 1"
-date: "2024-04-22"
+title: 'CRUD App Next.js 13, Prisma - Part 1'
+date: '2024-04-22'
+status: public
 ---
 
 The goal is to make a music venue scheduler for large promoters.

@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Creating a control panel for WooCommerce Blocks checkout blocks."
-date: "2023-02-18"
+title: 'Work Notes: Creating a control panel for WooCommerce Blocks checkout blocks.'
+date: '2023-02-18'
+status: public
 ---
 
 I need to focus on getting the children param because that's where a bunch of attributes are going to be which I can't normally access from the frontend without the children prop.

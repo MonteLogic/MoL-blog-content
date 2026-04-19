@@ -1,11 +1,11 @@
 ---
-title: "Documenting: Familiarizing Block Based Themes"
-date: "2022-08-23"
-categories: 
-  - "documenting"
-  - "work-notes"
-category-slug: "work-notes"
-
+title: 'Documenting: Familiarizing Block Based Themes'
+date: '2022-08-23'
+categories:
+  - documenting
+  - work-notes
+category-slug: work-notes
+status: public
 ---
 
 **New Day:** Mon 21 Aug 2022 12:00:00 PM CDT

@@ -1,6 +1,7 @@
 ---
 title: 'Proposal: Markdown CLI CMS'
 date: '2024-11-19'
+status: public
 ---
 
 Ideally we would use **Frontmatter** for the metadata. So it'll be Markdown CLI. We would use contentlayer for schema validation. But then we would query all of this as one project. Then the CLI, check out one branch of it and then this Branch would be by default which you can just open it.

@@ -1,6 +1,7 @@
 ---
-title: "OLifts are overrated."
-date: "2024-12-20"
+title: OLifts are overrated.
+date: '2024-12-20'
+status: public
 ---
 
 They are very hard on the body,

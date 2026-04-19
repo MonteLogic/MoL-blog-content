@@ -1,6 +1,7 @@
 ---
-title: "Using Clerk metadata to manage Stripe payments"
-date: "2024-12-24"
+title: Using Clerk metadata to manage Stripe payments
+date: '2024-12-24'
+status: public
 ---
 
 Okay, so once a webhook fires from the checkout we will send the user's payment info to Clerk metadata.

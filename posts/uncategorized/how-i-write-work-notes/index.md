@@ -1,6 +1,7 @@
 ---
-title: "Writing Work Notes"
-date: "2023-08-26"
+title: Writing Work Notes
+date: '2023-08-26'
+status: public
 ---
 
 I try to include images so I can know what I was talking about. Ultimately, I don't slow down and make a video on the thing I'm working on, I usually go back, so images and notes of what's going on is important.

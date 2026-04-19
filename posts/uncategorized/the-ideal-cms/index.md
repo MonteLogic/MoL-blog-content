@@ -1,6 +1,7 @@
 ---
-title: "The Ideal CMS"
-date: "2025-02-02"
+title: The Ideal CMS
+date: '2025-02-02'
+status: public
 ---
 
 Within Gutenberg within an element I would like to hit a hotkey which would turn  

@@ -1,6 +1,7 @@
 ---
-title: "Contractor Buddy Work Notes - 3"
-date: "2024-04-11"
+title: Contractor Buddy Work Notes - 3
+date: '2024-04-11'
+status: public
 ---
 
 # Starting part 3

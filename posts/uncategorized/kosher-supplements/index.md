@@ -1,6 +1,7 @@
 ---
-title: "Kosher Supplements"
-date: "2024-12-08"
+title: Kosher Supplements
+date: '2024-12-08'
+status: public
 ---
 
 Isolate - [https://www.amazon.com/dp/B00MPR1DZ2/?coliid=I1T6M2M23G0AAV&colid=10H8R8SOT4D61&psc=1&ref\_=list\_c\_wl\_lv\_ov\_lig\_dp\_it](https://www.amazon.com/dp/B00MPR1DZ2/?coliid=I1T6M2M23G0AAV&colid=10H8R8SOT4D61&psc=1&ref_=list_c_wl_lv_ov_lig_dp_it) , I get the unflavored one as I have a sensitive stomach and prefer to flavor it with my own natural sweetener, which is Peanut Butter powder.

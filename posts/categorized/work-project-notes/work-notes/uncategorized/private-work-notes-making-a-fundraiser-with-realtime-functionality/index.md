@@ -1,8 +1,9 @@
 ---
-title: "Private Work Notes: Making a Fundraiser with realtime functionality - Part 1"
-date: "2023-04-03"
-categories: 
-  - "work-notes"
+title: 'Private Work Notes: Making a Fundraiser with realtime functionality - Part 1'
+date: '2023-04-03'
+categories:
+  - work-notes
+status: public
 ---
 
 Alright, so how am I going to do this?

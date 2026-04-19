@@ -1,6 +1,7 @@
 ---
-title: "Side Notes"
-date: "2024-02-23"
+title: Side Notes
+date: '2024-02-23'
+status: public
 ---
 
 Side note:  

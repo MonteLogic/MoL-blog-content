@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Setting up OTA updates for WordPress plugins"
-date: "2023-04-21"
+title: 'Work Notes: Setting up OTA updates for WordPress plugins'
+date: '2023-04-21'
+status: public
 ---
 
 So I have to have the plugin on my server, here is the link to the zip which is publicly available. (https://ec.wp2mag.com/ec-plus-fundraiser/zips/ec-plus-fundraiser.zip)

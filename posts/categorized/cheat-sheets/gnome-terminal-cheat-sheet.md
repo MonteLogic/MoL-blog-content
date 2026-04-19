@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 
 Use ctrl+shift+n  to open up a new window in the same terminal. 

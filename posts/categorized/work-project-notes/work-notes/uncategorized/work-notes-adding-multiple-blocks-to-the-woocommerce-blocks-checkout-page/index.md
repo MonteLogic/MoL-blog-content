@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Adding Multiple Blocks to the WooCommerce Blocks Checkout Page."
-date: "2022-12-21"
+title: 'Work Notes: Adding Multiple Blocks to the WooCommerce Blocks Checkout Page.'
+date: '2022-12-21'
+status: public
 ---
 
 I wrote this piece of code which takess in multiple paths rather than just one.

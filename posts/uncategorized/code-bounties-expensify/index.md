@@ -1,3 +1,6 @@
+---
+status: public
+---
 # Expensify Code Bounties
 
 

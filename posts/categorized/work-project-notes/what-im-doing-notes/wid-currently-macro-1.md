@@ -1,3 +1,6 @@
+---
+status: public
+---
 MySiddur:
 What I'm doing, I'm just going to copy and paste a bunch of stuff and add notes to the generate siddur button.
 

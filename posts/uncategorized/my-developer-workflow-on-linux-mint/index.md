@@ -1,7 +1,8 @@
 ---
-title: "My Developer Workflow on Linux Mint"
-date: "2022-08-09"
-category-slug: "work-notes"
+title: My Developer Workflow on Linux Mint
+date: '2022-08-09'
+category-slug: work-notes
+status: public
 ---
 
 I'm currently working with BASH files to automate the process that I'm in and appears that I have to source the file to do anything meaningful.

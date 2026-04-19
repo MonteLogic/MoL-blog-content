@@ -1,6 +1,7 @@
 ---
-title: "Current Testing Regiment"
-date: "2024-11-17"
+title: Current Testing Regiment
+date: '2024-11-17'
+status: public
 ---
 
 Sat Nov 16 2024 20:42:02 CST

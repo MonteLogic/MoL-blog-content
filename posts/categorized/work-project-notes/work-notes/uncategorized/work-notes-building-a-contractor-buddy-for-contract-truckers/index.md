@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Building a Contractor Buddy for Contract Truckers - Part 1"
-date: "2023-05-04"
+title: 'Work Notes: Building a Contractor Buddy for Contract Truckers - Part 1'
+date: '2023-05-04'
+status: public
 ---
 
 In the next.js docs they talk about using a discord provider to use off. But I don't really like discard at all so I'm going to try to do the same thing with Telegram.

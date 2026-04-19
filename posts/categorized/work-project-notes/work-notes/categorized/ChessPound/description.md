@@ -1,3 +1,6 @@
+---
+status: public
+---
 A project to do Chess training realtime, ALERTS when you blunder. 
 
 The end goal is to have it run on some AMD EPYC processor or (supercomputer\* ).

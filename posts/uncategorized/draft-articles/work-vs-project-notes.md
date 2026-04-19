@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Work Notes vs. Project Notes
 

@@ -1,6 +1,7 @@
 ---
-title: "Blog toDo / Side Projects:"
-date: "2022-08-03"
+title: 'Blog toDo / Side Projects:'
+date: '2022-08-03'
+status: public
 ---
 
 Rewrite Divi theme to use Gutenberg.

@@ -1,6 +1,7 @@
 ---
-title: "Donate"
-date: "2023-10-15"
+title: Donate
+date: '2023-10-15'
+status: public
 ---
 
 #### Make a one-time donation

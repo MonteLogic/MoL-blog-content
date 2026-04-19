@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Debugging React:
 https://www.youtube.com/watch?v=q8l74jlRFtc

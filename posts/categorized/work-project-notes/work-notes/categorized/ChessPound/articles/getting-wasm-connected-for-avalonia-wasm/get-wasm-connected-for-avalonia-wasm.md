@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Okay, here is a checklist for figuring out why your WASM project isn't working, you need to get all of these done. 
 

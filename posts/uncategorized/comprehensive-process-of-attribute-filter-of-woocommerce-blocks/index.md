@@ -1,6 +1,7 @@
 ---
-title: "Comprehensive Process of  attribute-filter of WooCommerce Blocks."
-date: "2022-10-13"
+title: Comprehensive Process of  attribute-filter of WooCommerce Blocks.
+date: '2022-10-13'
+status: public
 ---
 
 Okay the main thing is attributeTerms. Which is declared as results from a useCollection hooks call as:

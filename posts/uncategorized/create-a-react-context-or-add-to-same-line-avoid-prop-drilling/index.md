@@ -1,6 +1,7 @@
 ---
-title: "Create a React Context or add to same line, avoid prop drilling"
-date: "2024-04-24"
+title: 'Create a React Context or add to same line, avoid prop drilling'
+date: '2024-04-24'
+status: public
 ---
 
 TL;DR Prop drilling can be complicated and create buggy apps, try to avoid it.

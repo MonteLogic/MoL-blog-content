@@ -1,7 +1,8 @@
 ---
-title: "Documenting: My Developer Workflow Setup on Linux Mint"
-date: "2022-08-09"
-category-slug: "work-notes"
+title: 'Documenting: My Developer Workflow Setup on Linux Mint'
+date: '2022-08-09'
+category-slug: work-notes
+status: public
 ---
 
 About my workflow:

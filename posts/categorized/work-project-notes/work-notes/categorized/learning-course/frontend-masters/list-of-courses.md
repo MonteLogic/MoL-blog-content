@@ -1,3 +1,6 @@
+---
+status: public
+---
 https://frontendmasters.com/courses/react-native-v3/
 
 

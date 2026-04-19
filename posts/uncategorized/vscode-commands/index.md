@@ -1,6 +1,7 @@
 ---
-title: "VSCode commands"
-date: "2024-12-15"
+title: VSCode commands
+date: '2024-12-15'
+status: public
 ---
 
 When I want to get rid of all the old traces of old branches of my git repo:

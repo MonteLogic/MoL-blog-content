@@ -1,6 +1,7 @@
 ---
-title: "Review of SonarLint/SonarCube"
-date: "2024-11-23"
+title: Review of SonarLint/SonarCube
+date: '2024-11-23'
+status: public
 ---
 
 It's good but not worth 32 USD a month. It can give in-depth code analysis but it's not at the point where it can substitute half of what an expert of a certain stack can offer in a code review.

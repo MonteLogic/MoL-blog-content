@@ -1,3 +1,6 @@
+---
+status: public
+---
 # Establish Private vs. Public posts logic using Clerk.
 
 Okay, how is frontmatter even parsed how cna we discriminators to it?

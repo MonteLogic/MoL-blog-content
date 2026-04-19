@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 ## Thereabout 
 A word being more specific to time, and being relevant per the instance which they are relevant.

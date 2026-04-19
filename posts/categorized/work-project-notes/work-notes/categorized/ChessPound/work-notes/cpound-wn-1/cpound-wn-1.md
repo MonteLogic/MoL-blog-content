@@ -1,6 +1,7 @@
 ---
-title: 'cpound-1 work notes'
+title: cpound-1 work notes
 date: '2024-04-11'
+status: public
 ---
 
 I REALLY don't want to create a custom state system.

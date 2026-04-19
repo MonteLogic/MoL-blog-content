@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Okay, so I'm not going to say I'm addicted to porn but it takes precedent over things in my life. 
 

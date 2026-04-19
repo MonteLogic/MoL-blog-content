@@ -1,6 +1,7 @@
 ---
-title: "Study Notes: Getting my CDL B in Illinois"
-date: "2023-08-08"
+title: 'Study Notes: Getting my CDL B in Illinois'
+date: '2023-08-08'
+status: public
 ---
 
 I failed this test 4 out of the 5 times I've taken it and the one time I did get it right I wasn't able to get the permit turned to a license due to the fact

@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Coding MoL Custom Blocks."
-date: "2023-09-18"
+title: 'Work Notes: Coding MoL Custom Blocks.'
+date: '2023-09-18'
+status: public
 ---
 
 I want to add another block which generates a random tag number of 6 characters and it'll have, "\[ \]" next to it to show if it's done or not.

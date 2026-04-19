@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Implementing Stripe payments for CB"
-date: "2023-10-23"
+title: 'Work Notes: Implementing Stripe payments for CB'
+date: '2023-10-23'
+status: public
 ---
 
 I think we've been overthinking this.

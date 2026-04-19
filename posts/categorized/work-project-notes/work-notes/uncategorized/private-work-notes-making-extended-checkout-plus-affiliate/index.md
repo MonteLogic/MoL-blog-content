@@ -1,7 +1,8 @@
 ---
-title: "Private Work Notes: Making Extended Checkout plus Affiliate"
-date: "2023-04-22"
-category-slug: "work-notes"
+title: 'Private Work Notes: Making Extended Checkout plus Affiliate'
+date: '2023-04-22'
+category-slug: work-notes
+status: public
 ---
 
 I would like an affiliate program in order to test out the functionality of EC plus fundraisers. I am currently not in a position where I'm running fundraisers but selling Extended Checkout I would definitely like to use an affiliate system to increase sales.

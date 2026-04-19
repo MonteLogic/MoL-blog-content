@@ -1,6 +1,7 @@
 ---
-title: "Notes: Webpack in WordPress Gutenberg"
-date: "2022-12-18"
+title: 'Notes: Webpack in WordPress Gutenberg'
+date: '2022-12-18'
+status: public
 ---
 
 I am currently having issues where I cannot get webpack to work and I get this error.

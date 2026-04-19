@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Debugging WordPress With Custom Log Files"
-date: "2022-08-13"
-category-slug: "work-notes"
+title: 'Documenting: Debugging WordPress With Custom Log Files'
+date: '2022-08-13'
+category-slug: work-notes
+status: public
 ---
 
 New Day: Sat 13 Aug 2022 02:29:10 PM CDT

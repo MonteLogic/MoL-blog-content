@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Uploading multiple images via UploadThing"
-date: "2023-08-09"
+title: 'Work Notes: Uploading multiple images via UploadThing'
+date: '2023-08-09'
+status: public
 ---
 
 The code I currently have only allows for uploading one image.

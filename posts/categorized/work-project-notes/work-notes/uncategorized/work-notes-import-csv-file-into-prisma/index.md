@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Import CSV file into Prisma with Next.js 13+"
-date: "2023-08-15"
+title: 'Work Notes: Import CSV file into Prisma with Next.js 13+'
+date: '2023-08-15'
+status: public
 ---
 
 This is the code I have so far but I don't feel like making a client component:

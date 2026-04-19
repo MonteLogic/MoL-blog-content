@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Setting up Vdebug on LocalWP"
-date: "2022-08-07"
-category-slug: "work-notes"
+title: 'Documenting: Setting up Vdebug on LocalWP'
+date: '2022-08-07'
+category-slug: work-notes
+status: public
 ---
 
 TL;DR I couldn't figure it out mainly because Linux, Vim and LocalWP seem to be a combination which isn't officially supported.

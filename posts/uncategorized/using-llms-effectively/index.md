@@ -1,6 +1,7 @@
 ---
-title: "Using LLMs effectively."
-date: "2024-05-13"
+title: Using LLMs effectively.
+date: '2024-05-13'
+status: public
 ---
 
 LLMs have a limit, I have use Claude Pro 3, GitHub Copilot and I now say with great strength that LLMs have a limit and won't be useful as a sole tool for a very long time.

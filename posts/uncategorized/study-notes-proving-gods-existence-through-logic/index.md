@@ -1,6 +1,7 @@
 ---
-title: "Study Notes: Proving God's Existence Through Logic"
-date: "2023-06-25"
+title: 'Study Notes: Proving God''s Existence Through Logic'
+date: '2023-06-25'
+status: public
 ---
 
 

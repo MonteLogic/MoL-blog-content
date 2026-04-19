@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 Don't put too much pressure on yourself to perform. 
 

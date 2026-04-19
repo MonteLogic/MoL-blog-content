@@ -1,3 +1,6 @@
+---
+status: public
+---
 # How to setup the next99 stack
 
 

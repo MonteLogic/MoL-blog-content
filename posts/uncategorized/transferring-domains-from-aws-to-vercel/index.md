@@ -1,6 +1,7 @@
 ---
-title: "Transferring Domains from AWS to Vercel"
-date: "2024-07-26"
+title: Transferring Domains from AWS to Vercel
+date: '2024-07-26'
+status: public
 ---
 
 Although DNS records take a while, from my experience working with Vercel if you do it right it should transfer within 30 minutes.

@@ -1,6 +1,7 @@
 ---
-title: "Rules I use to train and avoid injury"
-date: "2025-01-31"
+title: Rules I use to train and avoid injury
+date: '2025-01-31'
+status: public
 ---
 
 - When doing a new lift do it for 6 sessions before ramming it. So do it like high reps low PPE and you should only start ramming once you hit those 6 sessions.

@@ -1,6 +1,7 @@
 ---
-title: "12.20.2024 - Start Dev Work Session Commands"
-date: "2024-12-20"
+title: 12.20.2024 - Start Dev Work Session Commands
+date: '2024-12-20'
+status: public
 ---
 
 1. First, ensure you're on the correct branch:

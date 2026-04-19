@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Adding Custom Meta data to the Cart, WooCommerce Blocks, .js"
-date: "2023-04-26"
+title: 'Work Notes: Adding Custom Meta data to the Cart, WooCommerce Blocks, .js'
+date: '2023-04-26'
+status: public
 ---
 
 This is how you add custom meta data to a cart in WooCommerce using JavaScript(React).

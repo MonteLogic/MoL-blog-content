@@ -1,6 +1,7 @@
 ---
-title: "Private Work Notes: Making a Fundraiser with realtime functionality - Part 2"
-date: "2023-04-18"
+title: 'Private Work Notes: Making a Fundraiser with realtime functionality - Part 2'
+date: '2023-04-18'
+status: public
 ---
 
 Make the analytics good and then focus on the editing of the component so users can get the fundraisers page looking really good.

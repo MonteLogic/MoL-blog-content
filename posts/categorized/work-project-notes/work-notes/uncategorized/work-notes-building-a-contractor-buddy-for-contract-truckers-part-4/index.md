@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Building a Contractor Buddy for Contract Truckers - Part 4"
-date: "2023-08-06"
+title: 'Work Notes: Building a Contractor Buddy for Contract Truckers - Part 4'
+date: '2023-08-06'
+status: public
 ---
 
 \[x\] 51cxt8 - Work on the UI for the scheduling.

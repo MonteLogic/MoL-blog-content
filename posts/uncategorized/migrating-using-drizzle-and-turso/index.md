@@ -1,6 +1,7 @@
 ---
-title: "Migrating Using Drizzle and Turso"
-date: "2024-11-17"
+title: Migrating Using Drizzle and Turso
+date: '2024-11-17'
+status: public
 ---
 
 I have a new db I want to use so I am running commands.

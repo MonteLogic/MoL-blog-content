@@ -1,6 +1,7 @@
 ---
-title: "Blog Article Topics"
-date: "2024-11-10"
+title: Blog Article Topics
+date: '2024-11-10'
+status: public
 ---
 
 Opinion on living in Brazil.  

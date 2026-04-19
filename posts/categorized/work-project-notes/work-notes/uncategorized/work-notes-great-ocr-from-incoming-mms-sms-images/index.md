@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Great OCR for incoming MMS (SMS) images."
-date: "2023-09-24"
+title: 'Work Notes: Great OCR for incoming MMS (SMS) images.'
+date: '2023-09-24'
+status: public
 ---
 
 I got tesseract working but the OCR isn't good.

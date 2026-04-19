@@ -1,3 +1,6 @@
+---
+status: public
+---
 
 
 Okay, so here's the answer. 

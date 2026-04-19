@@ -1,6 +1,7 @@
 ---
-title: 'Contractor Buddy Work Notes - part-4'
+title: Contractor Buddy Work Notes - part-4
 date: '2024-04-11'
+status: public
 ---
 
 ## Start: Sun Jul 13 2025 13:20:06 CDT

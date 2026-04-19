@@ -1,6 +1,7 @@
 ---
-title: "Building an Upload Component for uploadthing"
-date: "2023-07-25"
+title: Building an Upload Component for uploadthing
+date: '2023-07-25'
+status: public
 ---
 
 I guess I just have to figure out how to post to imageUploader from, 'src/server/uploadthing.ts'.

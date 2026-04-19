@@ -1,6 +1,7 @@
 ---
-title: "Work Log: Settings Up Google Analytics Properly on Next.js 13+"
-date: "2025-02-02"
+title: 'Work Log: Settings Up Google Analytics Properly on Next.js 13+'
+date: '2025-02-02'
+status: public
 ---
 
 ## **Note**\*\*\* You are better off using [Vercel Analytics](https://vercel.com/docs/analytics/quickstart#add-the-analytics-component-to-your-app) as the setup is 10x easier.

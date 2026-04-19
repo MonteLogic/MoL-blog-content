@@ -1,6 +1,7 @@
 ---
-title: "Make a fancy pdf, using the pdf-lib generator in Node.js"
-date: "2024-07-05"
+title: 'Make a fancy pdf, using the pdf-lib generator in Node.js'
+date: '2024-07-05'
+status: public
 ---
 
 Whether you're doing your taxes and TurboTax generates your tax records for you or you got a new certificate from an online education platform, PDF generation is an important service of an experienced web dev.

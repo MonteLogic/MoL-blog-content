@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: End to End (e2e) testing for the WooCommerce Checkout page"
-date: "2023-07-16"
+title: 'Work Notes: End to End (e2e) testing for the WooCommerce Checkout page'
+date: '2023-07-16'
+status: public
 ---
 
 \[ \] twt155 - I don't know how to tests to see the user side, I would like for these tests to be comprehensive.

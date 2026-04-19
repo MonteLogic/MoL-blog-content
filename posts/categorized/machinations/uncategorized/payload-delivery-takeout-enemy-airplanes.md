@@ -1,3 +1,6 @@
+---
+status: public
+---
 A continuation of: MoL-blog-content/posts/categorized/socs/ai-plus-balloon-targeting/index.md
 
 I've been plotting on ideas to deliver ordinances to enemy planes deep beyond the frontlines. 

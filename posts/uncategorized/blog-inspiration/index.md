@@ -1,3 +1,6 @@
+---
+status: public
+---
 ## Blog design inspiration:
 
 I like how fast this is:

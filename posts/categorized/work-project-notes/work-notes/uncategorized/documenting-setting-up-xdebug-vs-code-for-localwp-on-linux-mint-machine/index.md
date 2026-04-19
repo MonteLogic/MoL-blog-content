@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Setting Up Xdebug + VS Code for LocalWP on Linux Mint machine"
-date: "2022-08-13"
-category-slug: "work-notes"
+title: 'Documenting: Setting Up Xdebug + VS Code for LocalWP on Linux Mint machine'
+date: '2022-08-13'
+category-slug: work-notes
+status: public
 ---
 New Day: Sat 13 Aug 2022 10:35:23 AM CDT
 

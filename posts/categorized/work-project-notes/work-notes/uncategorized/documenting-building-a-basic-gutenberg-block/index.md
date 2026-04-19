@@ -1,7 +1,8 @@
 ---
-title: "Documenting: Building a Basic Gutenberg Block"
-date: "2022-09-12"
-category-slug: "work-notes"
+title: 'Documenting: Building a Basic Gutenberg Block'
+date: '2022-09-12'
+category-slug: work-notes
+status: public
 ---
 
 **New Day:** Fri 09 Sep 2022 10:14:52 AM CDT

@@ -1,3 +1,6 @@
+---
+status: public
+---
 ## Start: Sun Jun 01 2025 15:42:07 CDT
 
 

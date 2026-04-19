@@ -1,6 +1,7 @@
 ---
-title: "Insulate my room from the cold"
-date: "2024-11-23"
+title: Insulate my room from the cold
+date: '2024-11-23'
+status: public
 ---
 
 It's hard to write code when you're cold. So let's insulate my room.

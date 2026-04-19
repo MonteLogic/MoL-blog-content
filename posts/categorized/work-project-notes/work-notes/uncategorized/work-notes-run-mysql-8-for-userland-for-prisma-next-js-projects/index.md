@@ -1,6 +1,7 @@
 ---
-title: "Work Notes: Run MySQL 8 for UserLAnd for Prisma/Next.js projects"
-date: "2023-09-07"
+title: 'Work Notes: Run MySQL 8 for UserLAnd for Prisma/Next.js projects'
+date: '2023-09-07'
+status: public
 ---
 
 i am getting the error
